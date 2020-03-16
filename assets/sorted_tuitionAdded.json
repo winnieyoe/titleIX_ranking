@@ -1,0 +1,5830 @@
+[
+  {
+    "name": "BROWN UNIVERSITY",
+    "state": "RI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/9/2017",
+        "Athletics"
+      ],
+      [
+        "7/10/2014",
+        "Dissemination of Policy"
+      ],
+      [
+        "4/13/2017",
+        "Dissemination of Policy"
+      ],
+      [
+        "4/12/2019",
+        "Others"
+      ],
+      [
+        "7/10/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "4/13/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "4/13/2017",
+        "Retaliation"
+      ],
+      [
+        "7/10/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "4/13/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "7/10/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,466 USD"
+  },
+  {
+    "name": "CORNELL UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/26/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "5/26/2015",
+        "Retaliation"
+      ],
+      [
+        "12/2/2015",
+        "Retaliation"
+      ],
+      [
+        "4/2/2018",
+        "Retaliation"
+      ],
+      [
+        "8/26/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "12/21/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "1/26/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "5/26/2015",
+        "Sexual Violence"
+      ],
+      [
+        "12/2/2015",
+        "Sexual Violence"
+      ],
+      [
+        "4/2/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,188 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NOTRE DAME",
+    "state": "IN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/24/2019",
+        "Others"
+      ],
+      [
+        "9/11/2013",
+        "Procedural Requirements"
+      ],
+      [
+        "9/11/2013",
+        "Retaliation"
+      ],
+      [
+        "9/11/2013",
+        "Sexual Harassment"
+      ],
+      [
+        "10/21/2015",
+        "Sexual Harassment"
+      ],
+      [
+        "2/19/2016",
+        "Sexual Violence"
+      ],
+      [
+        "12/23/2016",
+        "Sexual Violence"
+      ],
+      [
+        "4/25/2018",
+        "Sexual Violence"
+      ],
+      [
+        "8/1/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,391 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/6/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "12/9/2015",
+        "Retaliation"
+      ],
+      [
+        "10/2/2017",
+        "Retaliation"
+      ],
+      [
+        "3/23/2018",
+        "Retaliation"
+      ],
+      [
+        "12/9/2015",
+        "Sexual Harassment"
+      ],
+      [
+        "5/23/2016",
+        "Sexual Violence"
+      ],
+      [
+        "10/2/2017",
+        "Sexual Violence"
+      ],
+      [
+        "3/23/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,568 USD, Out-of-state 19,704 USD"
+  },
+  {
+    "name": "VANDERBILT UNIVERSITY",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/12/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "9/29/2016",
+        "Retaliation"
+      ],
+      [
+        "1/13/2017",
+        "Retaliation"
+      ],
+      [
+        "10/13/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "3/12/2014",
+        "Sexual Violence"
+      ],
+      [
+        "1/13/2017",
+        "Sexual Violence"
+      ],
+      [
+        "11/27/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "49,816 USD"
+  },
+  {
+    "name": "COLUMBIA UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/30/2015",
+        "Retaliation"
+      ],
+      [
+        "2/14/2017",
+        "Retaliation"
+      ],
+      [
+        "2/14/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "6/28/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "1/8/2015",
+        "Sexual Violence"
+      ],
+      [
+        "7/30/2015",
+        "Sexual Violence"
+      ],
+      [
+        "6/28/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "59,430 USD"
+  },
+  {
+    "name": "DARTMOUTH COLLEGE",
+    "state": "NH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/31/2013",
+        "Others"
+      ],
+      [
+        "5/31/2013",
+        "Procedural Requirements"
+      ],
+      [
+        "2/6/2015",
+        "Retaliation"
+      ],
+      [
+        "2/22/2017",
+        "Retaliation"
+      ],
+      [
+        "5/31/2013",
+        "Sexual Violence"
+      ],
+      [
+        "8/21/2015",
+        "Sexual Violence"
+      ],
+      [
+        "2/22/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,453 USD"
+  },
+  {
+    "name": "NORTHEASTERN UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/13/2020",
+        "Denial of Benefits"
+      ],
+      [
+        "12/20/2019",
+        "Others"
+      ],
+      [
+        "1/13/2020",
+        "Others"
+      ],
+      [
+        "10/30/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "7/5/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "10/30/2014",
+        "Sexual Violence"
+      ],
+      [
+        "7/5/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "51,522 USD"
+  },
+  {
+    "name": "TUSKEGEE UNIVERSITY",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/8/2016",
+        "Admissions"
+      ],
+      [
+        "1/8/2016",
+        "Denial of Benefits"
+      ],
+      [
+        "1/8/2016",
+        "Others"
+      ],
+      [
+        "1/8/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "1/8/2016",
+        "Retaliation"
+      ],
+      [
+        "1/17/2020",
+        "Retaliation"
+      ],
+      [
+        "1/17/2020",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "22,170 USD"
+  },
+  {
+    "name": "EASTERN WASHINGTON UNIVERSITY",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/1/2016",
+        "Denial of Benefits"
+      ],
+      [
+        "12/1/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "5/5/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "12/1/2016",
+        "Retaliation"
+      ],
+      [
+        "5/5/2017",
+        "Retaliation"
+      ],
+      [
+        "12/1/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,323 USD, Out-of-state 24,444 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MICHIGAN-ANN ARBOR",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/24/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "2/21/2014",
+        "Dissemination of Policy"
+      ],
+      [
+        "1/24/2019",
+        "Others"
+      ],
+      [
+        "2/21/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "1/24/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "2/21/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 15,262 USD, Out-of-state 49,350 USD"
+  },
+  {
+    "name": "MICHIGAN STATE UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/31/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "6/20/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "10/31/2018",
+        "Gender Harassment"
+      ],
+      [
+        "9/27/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "7/28/2017",
+        "Sexual Violence"
+      ],
+      [
+        "9/27/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 14,460 USD, Out-of-state 39,766 USD"
+  },
+  {
+    "name": "AMERICAN UNIVERSITY",
+    "state": "DC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/11/2015",
+        "Retaliation"
+      ],
+      [
+        "3/11/2015",
+        "Sexual Violence"
+      ],
+      [
+        "6/21/2016",
+        "Sexual Violence"
+      ],
+      [
+        "3/28/2017",
+        "Sexual Violence"
+      ],
+      [
+        "11/7/2018",
+        "Sexual Violence"
+      ],
+      [
+        "3/12/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "48,459 USD"
+  },
+  {
+    "name": "UNIVERSITY OF WISCONSIN-MADISON",
+    "state": "WI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/24/2015",
+        "Sexual Violence"
+      ],
+      [
+        "8/12/2015",
+        "Sexual Violence"
+      ],
+      [
+        "8/12/2015",
+        "Sexual Violence"
+      ],
+      [
+        "11/18/2015",
+        "Sexual Violence"
+      ],
+      [
+        "11/18/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,555 USD, Out-of-state 36,805 USD"
+  },
+  {
+    "name": "UNIVERSITY OF VIRGINIA-MAIN CAMPUS",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/22/2016",
+        "Sexual Violence"
+      ],
+      [
+        "2/8/2018",
+        "Sexual Violence"
+      ],
+      [
+        "2/8/2018",
+        "Sexual Violence"
+      ],
+      [
+        "4/29/2019",
+        "Sexual Violence"
+      ],
+      [
+        "4/29/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 17,653 USD, Out-of-state 49,032 USD"
+  },
+  {
+    "name": "UNIVERSITY OF TEXAS - AUSTIN",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/15/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "9/18/2014",
+        "Retaliation"
+      ],
+      [
+        "6/15/2018",
+        "Retaliation"
+      ],
+      [
+        "10/5/2018",
+        "Retaliation"
+      ],
+      [
+        "11/25/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 10,610 USD, Out-of-state 37,580 USD"
+  },
+  {
+    "name": "OBERLIN COLLEGE",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/18/2017",
+        "Discipline"
+      ],
+      [
+        "11/24/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "11/24/2015",
+        "Retaliation"
+      ],
+      [
+        "11/24/2015",
+        "Sexual Violence"
+      ],
+      [
+        "1/9/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,052 USD"
+  },
+  {
+    "name": "COLLEGE OF WOOSTER",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/17/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "11/15/2016",
+        "Retaliation"
+      ],
+      [
+        "9/2/2016",
+        "Sexual Violence"
+      ],
+      [
+        "9/29/2016",
+        "Sexual Violence"
+      ],
+      [
+        "11/17/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,250 USD"
+  },
+  {
+    "name": "SUNY COLLEGE AT POTSDAM",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/11/2016",
+        "Retaliation"
+      ],
+      [
+        "8/11/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "6/30/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "6/22/2016",
+        "Sexual Violence"
+      ],
+      [
+        "6/30/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,462 USD, Out-of-state 18,242 USD"
+  },
+  {
+    "name": "SUNY AT ALBANY UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/25/2015",
+        "Others"
+      ],
+      [
+        "6/16/2015",
+        "Retaliation"
+      ],
+      [
+        "6/25/2015",
+        "Retaliation"
+      ],
+      [
+        "10/14/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "6/16/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,011 USD, Out-of-state 26,851 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MARYLAND-COLLEGE PARK",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/9/2019",
+        "Retaliation"
+      ],
+      [
+        "1/11/2017",
+        "Sexual Violence"
+      ],
+      [
+        "3/31/2017",
+        "Sexual Violence"
+      ],
+      [
+        "12/6/2017",
+        "Sexual Violence"
+      ],
+      [
+        "4/9/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,595 USD, Out-of-state 35,216 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MASSACHUSETTS-AMHERST",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/30/2011",
+        "Dissemination of Policy"
+      ],
+      [
+        "6/30/2011",
+        "Gender Harassment"
+      ],
+      [
+        "6/30/2011",
+        "Procedural Requirements"
+      ],
+      [
+        "6/30/2011",
+        "Sexual Harassment"
+      ],
+      [
+        "6/30/2011",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 15,887 USD, Out-of-state 34,570 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ILLINOIS AT CHICAGO",
+    "state": "IL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/9/2017",
+        "Retaliation"
+      ],
+      [
+        "5/17/2017",
+        "Retaliation"
+      ],
+      [
+        "5/17/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "4/22/2016",
+        "Sexual Violence"
+      ],
+      [
+        "3/24/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,764 USD, Out-of-state 26,980 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MIAMI",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/24/2016",
+        "Athletics"
+      ],
+      [
+        "3/11/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "10/9/2015",
+        "Retaliation"
+      ],
+      [
+        "10/9/2015",
+        "Sexual Violence"
+      ],
+      [
+        "3/11/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,226 USD"
+  },
+  {
+    "name": "UNIVERSITY OF FLORIDA",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/24/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "7/24/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "7/24/2018",
+        "Retaliation"
+      ],
+      [
+        "7/24/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "1/20/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 6,381 USD, Out-of-state 28,659 USD"
+  },
+  {
+    "name": "COLLEGE OF WILLIAM AND MARY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/15/2017",
+        "Retaliation"
+      ],
+      [
+        "8/6/2018",
+        "Retaliation"
+      ],
+      [
+        "8/15/2017",
+        "Sexual Violence"
+      ],
+      [
+        "8/6/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 23,400 USD, Out-of-state 45,272 USD"
+  },
+  {
+    "name": "TEXAS TECH UNIVERSITY",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/11/2019",
+        "Others"
+      ],
+      [
+        "9/12/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "4/4/2017",
+        "Retaliation"
+      ],
+      [
+        "9/12/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,080 USD, Out-of-state 19,040 USD"
+  },
+  {
+    "name": "UNIVERSITY OF TENNESSEE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/29/2015",
+        "Retaliation"
+      ],
+      [
+        "7/21/2015",
+        "Retaliation"
+      ],
+      [
+        "6/29/2015",
+        "Sexual Violence"
+      ],
+      [
+        "7/21/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,006 USD, Out-of-state 31,426 USD"
+  },
+  {
+    "name": "RHODES COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/1/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "10/19/2018",
+        "Retaliation"
+      ],
+      [
+        "10/19/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "6/1/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "47,890 USD"
+  },
+  {
+    "name": "SAN JUAN BAUTISTA SCHOOL OF MEDICINE",
+    "state": "PR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/16/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "5/16/2018",
+        "Retaliation"
+      ],
+      [
+        "5/16/2018",
+        "Sexual Violence"
+      ],
+      [
+        "2/11/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "9,172 USD"
+  },
+  {
+    "name": "FORTIS COLLEGE- CUYAHOGA FALLS",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/24/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "1/24/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "1/24/2018",
+        "Retaliation"
+      ],
+      [
+        "1/24/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "12,192 USD"
+  },
+  {
+    "name": "SKIDMORE COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/26/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "3/22/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "2/26/2019",
+        "Sexual Harassment"
+      ],
+      [
+        "1/28/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "54,420 USD"
+  },
+  {
+    "name": "ITHACA COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/2/2016",
+        "Retaliation"
+      ],
+      [
+        "12/2/2016",
+        "Sexual Violence"
+      ],
+      [
+        "10/5/2018",
+        "Sexual Violence"
+      ],
+      [
+        "1/16/2020",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "43,978 USD"
+  },
+  {
+    "name": "STONEHILL COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/3/2017",
+        "Dissemination of Policy"
+      ],
+      [
+        "8/3/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "3/3/2016",
+        "Sexual Violence"
+      ],
+      [
+        "8/3/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "42,746 USD"
+  },
+  {
+    "name": "UNIVERSITY OF IDAHO",
+    "state": "ID",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/27/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "11/29/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "5/27/2015",
+        "Retaliation"
+      ],
+      [
+        "5/27/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,864 USD, Out-of-state 25,500 USD"
+  },
+  {
+    "name": "MERCER UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/8/2018",
+        "Others"
+      ],
+      [
+        "8/5/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "8/5/2016",
+        "Retaliation"
+      ],
+      [
+        "8/5/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "36,894 USD"
+  },
+  {
+    "name": "ATLANTA TECHNICAL COLLEGE",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/24/2014",
+        "Denial of Benefits"
+      ],
+      [
+        "7/17/2015",
+        "Others"
+      ],
+      [
+        "6/24/2014",
+        "Retaliation"
+      ],
+      [
+        "6/24/2014",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 2,820 USD, Out-of-state 4,956 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CENTRAL FLORIDA",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/21/2015",
+        "Others"
+      ],
+      [
+        "10/21/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "10/21/2015",
+        "Retaliation"
+      ],
+      [
+        "5/5/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 6,368 USD, Out-of-state 22,467 USD"
+  },
+  {
+    "name": "FLORIDA STATE UNIVERSITY",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/1/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "11/1/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "4/3/2014",
+        "Sexual Violence"
+      ],
+      [
+        "9/15/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 5,656 USD, Out-of-state 18,786 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/31/2018",
+        "Others"
+      ],
+      [
+        "5/24/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "5/24/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "5/6/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "56,225 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CALIFORNIA-DAVIS",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/8/2020",
+        "Others"
+      ],
+      [
+        "3/24/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "3/24/2015",
+        "Sexual Violence"
+      ],
+      [
+        "5/20/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 14,402 USD, Out-of-state 43,394 USD"
+  },
+  {
+    "name": "MARSHALL UNIVERSITY",
+    "state": "WV",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/9/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "11/19/2019",
+        "Sexual Violence"
+      ],
+      [
+        "11/19/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,128 USD, Out-of-state 18,614 USD"
+  },
+  {
+    "name": "WHITWORTH UNIVERSITY",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/10/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "5/10/2016",
+        "Retaliation"
+      ],
+      [
+        "5/10/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "43,640 USD"
+  },
+  {
+    "name": "WESTERN WASHINGTON UNIVERSITY",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/17/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "4/17/2015",
+        "Sexual Violence"
+      ],
+      [
+        "11/5/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,126 USD, Out-of-state 23,540 USD"
+  },
+  {
+    "name": "GRAYS HARBOR COLLEGE",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/13/2017",
+        "Gender Harassment"
+      ],
+      [
+        "1/13/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "1/13/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 4,080 USD, Out-of-state 9,446 USD"
+  },
+  {
+    "name": "RANDOLPH COLLEGE",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/5/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "1/9/2019",
+        "Retaliation"
+      ],
+      [
+        "1/9/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "39,585 USD"
+  },
+  {
+    "name": "GEORGE MASON UNIVERSITY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/29/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "9/12/2016",
+        "Sexual Violence"
+      ],
+      [
+        "9/12/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 12,462 USD, Out-of-state 35,922 USD"
+  },
+  {
+    "name": "UNIVERSITY OF UTAH",
+    "state": "UT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/20/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "3/20/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "3/20/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 9,222 USD, Out-of-state 29,215 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NORTH TEXAS - DENTON",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/6/2016",
+        "Retaliation"
+      ],
+      [
+        "4/19/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "9/6/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,852 USD, Out-of-state 20,812 USD"
+  },
+  {
+    "name": "SOUTHWESTERN UNIVERSITY",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/18/2016",
+        "Dissemination of Policy"
+      ],
+      [
+        "2/18/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "2/18/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "42,000 USD"
+  },
+  {
+    "name": "BAYLOR UNIVERSITY",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/2/2018",
+        "Retaliation"
+      ],
+      [
+        "4/2/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "10/18/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "45,542 USD"
+  },
+  {
+    "name": "UNIVERSITY OF TENNESSEE @ CHATTANOOGA",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/5/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "12/5/2014",
+        "Sexual Violence"
+      ],
+      [
+        "10/22/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,664 USD, Out-of-state 24,782 USD"
+  },
+  {
+    "name": "SOUTHWEST TENNESSEE COMMUNITY COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/12/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "2/12/2016",
+        "Retaliation"
+      ],
+      [
+        "2/12/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 4,255 USD, Out-of-state 16,543 USD"
+  },
+  {
+    "name": "LINCOLN MEMORIAL UNIVERSITY",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/28/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "9/15/2017",
+        "Sexual Violence"
+      ],
+      [
+        "9/15/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "22,010 USD"
+  },
+  {
+    "name": "SWARTHMORE COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/12/2013",
+        "Procedural Requirements"
+      ],
+      [
+        "7/12/2013",
+        "Retaliation"
+      ],
+      [
+        "7/12/2013",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "52,588 USD"
+  },
+  {
+    "name": "PENNSYLVANIA STATE UNIVERSITY",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/23/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "1/23/2014",
+        "Sexual Violence"
+      ],
+      [
+        "1/23/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 18,454 USD, Out-of-state 34,858 USD"
+  },
+  {
+    "name": "OKLAHOMA STATE UNIVERSITY",
+    "state": "OK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/23/2020",
+        "Retaliation"
+      ],
+      [
+        "1/23/2020",
+        "Sexual Harassment"
+      ],
+      [
+        "4/10/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,019 USD, Out-of-state 24,539 USD"
+  },
+  {
+    "name": "THE OHIO STATE UNIVERSITY-MAIN CAMPUS",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/5/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "8/12/2015",
+        "Sexual Violence"
+      ],
+      [
+        "8/8/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,726 USD, Out-of-state 30,742 USD"
+  },
+  {
+    "name": "PONTIFICAL COLLEGE JOSEPHINUM",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/19/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "7/19/2018",
+        "Retaliation"
+      ],
+      [
+        "7/19/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "22,300 USD"
+  },
+  {
+    "name": "MIAMI UNIVERSITY-OXFORD",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/9/2017",
+        "Retaliation"
+      ],
+      [
+        "11/3/2016",
+        "Sexual Violence"
+      ],
+      [
+        "6/9/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 15,380 USD, Out-of-state 34,896 USD"
+  },
+  {
+    "name": "BOWLING GREEN STATE UNIVERSITY-MAIN CAMPUS",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/28/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "9/28/2017",
+        "Retaliation"
+      ],
+      [
+        "9/28/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 11,105 USD, Out-of-state 19,093 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ROCHESTER",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/21/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "5/19/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "5/21/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,909 USD"
+  },
+  {
+    "name": "SUNY AT STONY BROOK UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/8/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "3/8/2017",
+        "Gender Harassment"
+      ],
+      [
+        "7/23/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,625 USD, Out-of-state 27,295 USD"
+  },
+  {
+    "name": "ST. JOHN'S UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/27/2015",
+        "Sexual Violence"
+      ],
+      [
+        "10/1/2015",
+        "Sexual Violence"
+      ],
+      [
+        "10/1/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "41,760 USD"
+  },
+  {
+    "name": "ROCHESTER INSTITUTE OF TECHNOLOGY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/15/2019",
+        "GT/STEM/CCR"
+      ],
+      [
+        "8/15/2019",
+        "Others"
+      ],
+      [
+        "10/17/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "42,345 USD"
+  },
+  {
+    "name": "RENSSELAER POLYTECHNIC INSTITUTE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/20/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "9/13/2018",
+        "Sexual Violence"
+      ],
+      [
+        "9/13/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,880 USD"
+  },
+  {
+    "name": "PACE UNIVERSITY-NEW YORK",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/26/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "1/6/2020",
+        "Denial of Benefits"
+      ],
+      [
+        "9/26/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "45,280 USD"
+  },
+  {
+    "name": "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/16/2015",
+        "Sexual Violence"
+      ],
+      [
+        "4/28/2017",
+        "Sexual Violence"
+      ],
+      [
+        "4/28/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "$55,000"
+  },
+  {
+    "name": "NEW YORK UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/20/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "6/9/2017",
+        "Gender Harassment"
+      ],
+      [
+        "2/20/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "51,828 USD"
+  },
+  {
+    "name": "HAMILTON COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/14/2014",
+        "Retaliation"
+      ],
+      [
+        "11/14/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "11/14/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "54,620 USD"
+  },
+  {
+    "name": "CANISIUS COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/11/2014",
+        "Retaliation"
+      ],
+      [
+        "12/11/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "12/11/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "28,488 USD"
+  },
+  {
+    "name": "NEW MEXICO INSTITUTE OF MINING AND TECHNOLOGY",
+    "state": "NM",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/19/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "7/19/2016",
+        "Retaliation"
+      ],
+      [
+        "7/19/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,770 USD, Out-of-state 22,268 USD"
+  },
+  {
+    "name": "PRINCETON UNIVERSITY",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/9/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "7/28/2015",
+        "Gender Harassment"
+      ],
+      [
+        "8/11/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,340 USD"
+  },
+  {
+    "name": "JOE KUBERT SCHOOL OF CARTOON AND GRAPHIC ART",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/21/2016",
+        "Gender Harassment"
+      ],
+      [
+        "4/21/2016",
+        "Retaliation"
+      ],
+      [
+        "4/21/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "21,347 USD"
+  },
+  {
+    "name": "GUILFORD COLLEGE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/21/2017",
+        "Retaliation"
+      ],
+      [
+        "7/21/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "7/21/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "37,120 USD"
+  },
+  {
+    "name": "MISSOURI BAPTIST UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/4/2018",
+        "Sexual Harassment"
+      ],
+      [
+        "5/4/2018",
+        "Sexual Violence"
+      ],
+      [
+        "5/4/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "27,124 USD"
+  },
+  {
+    "name": "COLLEGE OF ST. SCHOLASTICA",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/26/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "8/26/2016",
+        "Retaliation"
+      ],
+      [
+        "8/26/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "37,212 USD"
+  },
+  {
+    "name": "WAYNE STATE UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/23/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "3/19/2019",
+        "Discipline"
+      ],
+      [
+        "8/16/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 13,097 USD, Out-of-state 27,991 USD"
+  },
+  {
+    "name": "OAKLAND COMMUNITY COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/28/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "7/28/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "7/28/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 4,472 USD, Out-of-state 4,472 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MAINE AT FORT KENT",
+    "state": "ME",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/26/2017",
+        "Dissemination of Policy"
+      ],
+      [
+        "10/26/2017",
+        "Others"
+      ],
+      [
+        "10/26/2017",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state 8,115 USD, Out-of-state 12,315 USD"
+  },
+  {
+    "name": "ST. MARY'S COLLEGE OF MARYLAND",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/10/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "2/6/2015",
+        "Sexual Violence"
+      ],
+      [
+        "3/10/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 14,806 USD, Out-of-state 30,568 USD"
+  },
+  {
+    "name": "MORGAN STATE UNIVERSITY",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/21/2020",
+        "Sexual Harassment"
+      ],
+      [
+        "6/26/2014",
+        "Sexual Violence"
+      ],
+      [
+        "6/26/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,900 USD, Out-of-state 18,167 USD"
+  },
+  {
+    "name": "JOHNS HOPKINS UNIVERSITY",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/8/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "8/8/2014",
+        "Sexual Violence"
+      ],
+      [
+        "8/8/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,740 USD"
+  },
+  {
+    "name": "WESTERN NEW ENGLAND UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/3/2015",
+        "Dissemination of Policy"
+      ],
+      [
+        "12/3/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "12/3/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "36,804 USD"
+  },
+  {
+    "name": "TUFTS UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/21/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "4/9/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "4/9/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "56,382 USD"
+  },
+  {
+    "name": "HARVARD COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/24/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "4/24/2014",
+        "Sexual Violence"
+      ],
+      [
+        "3/3/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,420 USD"
+  },
+  {
+    "name": "AMHERST COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/14/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "4/14/2017",
+        "Retaliation"
+      ],
+      [
+        "4/14/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "56,426 USD"
+  },
+  {
+    "name": "UNIVERSITY OF LOUISIANA AT MONROE",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/3/2016",
+        "Athletics"
+      ],
+      [
+        "11/3/2016",
+        "Others"
+      ],
+      [
+        "11/3/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 8,554 USD, Out-of-state 20,654 USD"
+  },
+  {
+    "name": "SOUTHERN UNIVERSITY AND A & M COLLEGE",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/12/2017",
+        "Sexual Harassment"
+      ],
+      [
+        "7/25/2017",
+        "Sexual Violence"
+      ],
+      [
+        "7/25/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,122 USD, Out-of-state 16,472 USD"
+  },
+  {
+    "name": "LOYOLA UNIVERSITY NEW ORLEANS - SCHOOL OF LAW",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/3/2014",
+        "Gender Harassment"
+      ],
+      [
+        "9/3/2014",
+        "Retaliation"
+      ],
+      [
+        "9/3/2014",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "38,471 USD"
+  },
+  {
+    "name": "CENTRE COLLEGE",
+    "state": "KY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/17/2019",
+        "Retaliation"
+      ],
+      [
+        "6/17/2019",
+        "Sexual Violence"
+      ],
+      [
+        "11/29/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "41,700 USD"
+  },
+  {
+    "name": "KANSAS STATE UNIVERSITY",
+    "state": "KS",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/24/2015",
+        "Retaliation"
+      ],
+      [
+        "9/24/2015",
+        "Sexual Violence"
+      ],
+      [
+        "3/27/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 10,383 USD, Out-of-state 25,887 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN",
+    "state": "IL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/22/2019",
+        "Others"
+      ],
+      [
+        "12/16/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "12/16/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 15,094 USD, Out-of-state 31,664 USD"
+  },
+  {
+    "name": "COLLEGE OF IDAHO",
+    "state": "ID",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/8/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "3/8/2016",
+        "Sexual Violence"
+      ],
+      [
+        "4/20/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "30,155 USD"
+  },
+  {
+    "name": "INTERDENOMINATIONAL THEOLOGICAL CENTER",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/2/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "6/2/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "5/27/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "15,063 USD"
+  },
+  {
+    "name": "COLUMBUS STATE UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/9/2020",
+        "Denial of Benefits"
+      ],
+      [
+        "1/9/2020",
+        "Others"
+      ],
+      [
+        "1/9/2020",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 6,134 USD, Out-of-state 16,920 USD"
+  },
+  {
+    "name": "COLLEGE OF COASTAL GEORGIA",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/28/2014",
+        "Retaliation"
+      ],
+      [
+        "10/28/2014",
+        "Sexual Harassment"
+      ],
+      [
+        "2/6/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 4,696 USD, Out-of-state 13,148 USD"
+  },
+  {
+    "name": "CLARK ATLANTA UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/3/2015",
+        "Dissemination of Policy"
+      ],
+      [
+        "6/3/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "12/7/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "22,186 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SOUTH FLORIDA",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/3/2014",
+        "Retaliation"
+      ],
+      [
+        "9/3/2014",
+        "Sexual Violence"
+      ],
+      [
+        "10/23/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 6,410 USD, Out-of-state 17,324 USD"
+  },
+  {
+    "name": "FULL SAIL UNIVERSITY",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/20/2015",
+        "Retaliation"
+      ],
+      [
+        "7/20/2015",
+        "Sexual Harassment"
+      ],
+      [
+        "7/20/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "24,109 USD"
+  },
+  {
+    "name": "UNIVERSITY OF DENVER",
+    "state": "CO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/10/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "3/10/2015",
+        "Sexual Violence"
+      ],
+      [
+        "5/30/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,556 USD"
+  },
+  {
+    "name": "COLORADO STATE UNIVERSITY",
+    "state": "CO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/24/2014",
+        "Dissemination of Policy"
+      ],
+      [
+        "6/24/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "6/24/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 11,707 USD, Out-of-state 29,608 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CALIFORNIA-LOS ANGELES",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/8/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "4/15/2019",
+        "Sexual Harassment"
+      ],
+      [
+        "8/8/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,226 USD, Out-of-state 42,218 USD"
+  },
+  {
+    "name": "AMERICAN BEAUTY COLLEGE",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/4/2019",
+        "Retaliation"
+      ],
+      [
+        "2/4/2019",
+        "Sexual Harassment"
+      ],
+      [
+        "12/3/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "13,700 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ARKANSAS MAIN CAMPUS",
+    "state": "AR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/21/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "4/21/2016",
+        "Sexual Harassment"
+      ],
+      [
+        "4/21/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,130 USD, Out-of-state 25,168 USD"
+  },
+  {
+    "name": "UNIVERSITY OF WYOMING",
+    "state": "WY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/6/2017",
+        "Retaliation"
+      ],
+      [
+        "7/6/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 5,400 USD, Out-of-state 17,490 USD"
+  },
+  {
+    "name": "THE UNIVERSITY OF VERMONT",
+    "state": "VT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/2/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "8/2/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 18,276 USD, Out-of-state 42,516 USD"
+  },
+  {
+    "name": "LONGWOOD UNIVERSITY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/21/2017",
+        "Retaliation"
+      ],
+      [
+        "9/21/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,340 USD, Out-of-state 29,300 USD"
+  },
+  {
+    "name": "HAMPTON UNIVERSITY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/25/2019",
+        "Retaliation"
+      ],
+      [
+        "8/31/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "26,702 USD"
+  },
+  {
+    "name": "THE UNIVERSITY OF TEXAS AT TYLER",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/6/2018",
+        "Denial of Benefits"
+      ],
+      [
+        "6/6/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 8,292 USD, Out-of-state 21,282 USD"
+  },
+  {
+    "name": "TEXAS HIGHER ED COORD BOARD",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/7/2015",
+        "Dissemination of Policy"
+      ],
+      [
+        "12/7/2015",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "NA"
+  },
+  {
+    "name": "OUR LADY OF THE LAKE UNIVERSITY - SAN ANTONIO",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/22/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "1/22/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "28,740 USD"
+  },
+  {
+    "name": "HOUSTON COMMUNITY COLLEGE SYSTEM",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/12/2019",
+        "Retaliation"
+      ],
+      [
+        "11/12/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 3,360 USD, Out-of-state 3,756 USD"
+  },
+  {
+    "name": "HILL COLLEGE- GLEN ROSE",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/18/2017",
+        "Retaliation"
+      ],
+      [
+        "4/18/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 2,982 USD, Out-of-state 3,382 USD"
+  },
+  {
+    "name": "TUSCULUM COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/1/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "4/1/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "24,860 USD"
+  },
+  {
+    "name": "TENNESSEE STATE UNIVERSITY",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/22/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "10/22/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 8,792 USD, Out-of-state tuition 21,512 USD"
+  },
+  {
+    "name": "EAST TENNESSEE STATE UNIVERSITY",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/10/2018",
+        "Retaliation"
+      ],
+      [
+        "9/10/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 8,935 USD, Out-of-state tuition 27,199 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SOUTH CAROLINA AT COLUMBIA",
+    "state": "SC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/28/2019",
+        "Retaliation"
+      ],
+      [
+        "1/28/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 12,618 USD, Out-of-state tuition 33,298 USD"
+  },
+  {
+    "name": "VALLEY FORGE MILITARY COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/23/2015",
+        "Retaliation"
+      ],
+      [
+        "4/23/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "29,975 USD"
+  },
+  {
+    "name": "UNIVERSITY OF PITTSBURGH",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/30/2019",
+        "Retaliation"
+      ],
+      [
+        "10/30/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 19,080 USD, Out-of-state tuition 32,052 USD"
+  },
+  {
+    "name": "UNIVERSITY OF PENNSYLVANIA",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/1/2019",
+        "Athletics"
+      ],
+      [
+        "7/1/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "55,584 USD"
+  },
+  {
+    "name": "PITC INSTITUTE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/26/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "6/26/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "$27,075"
+  },
+  {
+    "name": "CARNEGIE MELLON UNIVERSITY",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/28/2018",
+        "Retaliation"
+      ],
+      [
+        "6/28/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,465 USD"
+  },
+  {
+    "name": "PORTLAND STATE UNIVERSITY",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/17/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "10/17/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 9,105 USD, Out-of-state tuition 27,437 USD"
+  },
+  {
+    "name": "PORTLAND CC",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/13/2017",
+        "Gender Harassment"
+      ],
+      [
+        "9/13/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 4,340 USD, Out-of-state tuition 9,200 USD"
+  },
+  {
+    "name": "OREGON STATE UNIVERSITY",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/17/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "4/17/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,166 USD, Out-of-state tuition 30,141 USD"
+  },
+  {
+    "name": "NORTHWEST CHRISTIAN UNIVERSITY",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/27/2017",
+        "Procedural Requirements"
+      ],
+      [
+        "12/27/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "30,050 USD"
+  },
+  {
+    "name": "NORTHEASTERN STATE UNIVERSITY",
+    "state": "OK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/21/2015",
+        "Athletics"
+      ],
+      [
+        "9/21/2015",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state tuition 6,650 USD, Out-of-state tuition 14,720 USD"
+  },
+  {
+    "name": "MARIETTA COLLEGE",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/27/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "2/27/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "36,040 USD"
+  },
+  {
+    "name": "KENT STATE UNIVERSITY",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/13/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "11/6/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 10,312 USD, Out-of-state tuition 19,014 USD"
+  },
+  {
+    "name": "CLEVELAND STATE UNIVERSITY",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/31/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "8/31/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 10,457 USD, Out-of-state tuition 14,824 USD"
+  },
+  {
+    "name": "TOURO COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/19/2014",
+        "Others"
+      ],
+      [
+        "8/19/2014",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "19,870 USD"
+  },
+  {
+    "name": "SUNY UNIVERSITY AT BUFFALO ",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/22/2020",
+        "Retaliation"
+      ],
+      [
+        "1/22/2020",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "$6,870 per year"
+  },
+  {
+    "name": "SUNY AT CANTON",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/21/2016",
+        "Retaliation"
+      ],
+      [
+        "1/21/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 8,389 USD, Out-of-state tuition 12,379 USD"
+  },
+  {
+    "name": "SARAH LAWRENCE COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/10/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "7/10/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "55,900 USD"
+  },
+  {
+    "name": "D' YOUVILLE COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/19/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "11/19/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "26,750 USD"
+  },
+  {
+    "name": "CUNY YORK COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/23/2017",
+        "Retaliation"
+      ],
+      [
+        "5/23/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 7,158 USD, Out-of-state tuition 14,828 USD"
+  },
+  {
+    "name": "CUNY SCHOOL OF LAW ",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/24/2019",
+        "Retaliation"
+      ],
+      [
+        "6/24/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,420 USD, Out-of-state tuition 18,980 USD, International tuition 18,980 USD"
+  },
+  {
+    "name": "CUNY LEHMAN COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/6/2016",
+        "Retaliation"
+      ],
+      [
+        "7/6/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 7,210 USD, Out-of-state tuition 14,880 USD"
+  },
+  {
+    "name": "CUNY HUNTER COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/4/2017",
+        "Retaliation"
+      ],
+      [
+        "5/4/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 7,182 USD, Out-of-state tuition 14,852 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NV-LAS VEGAS",
+    "state": "NV",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/26/2016",
+        "Retaliation"
+      ],
+      [
+        "3/15/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 7,985 USD, Out-of-state tuition 23,132 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NEW MEXICO-MAIN CAMPUS",
+    "state": "NM",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/27/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "11/27/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 7,633 USD, Out-of-state tuition 22,586 USD"
+  },
+  {
+    "name": "MIDDLESEX COUNTY COLLEGE",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/29/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "4/29/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "7,032 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NEW HAMPSHIRE-MAIN CAMPUS",
+    "state": "NH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/27/2019",
+        "Others"
+      ],
+      [
+        "1/29/2020",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state tuition 18,499 USD, Out-of-state tuition 33,879 USD"
+  },
+  {
+    "name": "SOUTHEAST COMMUNITY COLLEGE",
+    "state": "NE",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/18/2011",
+        "Denial of Benefits"
+      ],
+      [
+        "4/18/2011",
+        "GT/STEM/CCR"
+      ]
+    ],
+    "tuition": "In-state tuition 3,128 USD, Out-of-state tuition 3,758 USD"
+  },
+  {
+    "name": "QUEENS UNIVERSITY OF CHARLOTTE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/17/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "5/17/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "34,684 USD"
+  },
+  {
+    "name": "GUILFORD TECHNICAL COMMUNITY COLLEGE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/15/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "11/15/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 2,319 USD, Out-of-state tuition 7,695 USD"
+  },
+  {
+    "name": "FAYETTEVILLE STATE UNIVERSITY",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/31/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "7/31/2017",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state tuition 5,249 USD, Out-of-state tuition 16,857 USD"
+  },
+  {
+    "name": "DUKE UNIVERSITY",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/9/2015",
+        "Gender Harassment"
+      ],
+      [
+        "11/20/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,695 USD"
+  },
+  {
+    "name": "DAVIDSON COUNTY COMMUNITY COLLEGE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/17/2019",
+        "Retaliation"
+      ],
+      [
+        "1/15/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 2,588 USD, Out-of-state tuition 8,732 USD"
+  },
+  {
+    "name": "BARTON COLLEGE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/18/2018",
+        "Retaliation"
+      ],
+      [
+        "7/18/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "30,880 USD"
+  },
+  {
+    "name": "MONTANA STATE UNIVERSITY-BOZEMAN",
+    "state": "MT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/4/2016",
+        "Denial of Benefits"
+      ],
+      [
+        "2/4/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 7,277 USD, Out-of-state tuition 24,993 USD"
+  },
+  {
+    "name": "WEBSTER UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/3/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "6/19/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "27,900 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MISSOURI-ST. LOUIS",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/24/2017",
+        "Retaliation"
+      ],
+      [
+        "1/24/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 9,792 USD, Out-of-state tuition 26,040 USD"
+  },
+  {
+    "name": "SAINT LOUIS UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/23/2018",
+        "Gender Harassment"
+      ],
+      [
+        "4/23/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "43,884 USD"
+  },
+  {
+    "name": "MARYVILLE UNIVERSITY-SAINT LOUIS",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/26/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "2/26/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "28,470 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ST THOMAS",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/22/2019",
+        "Others"
+      ],
+      [
+        "9/10/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "42,736 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MINNESOTA-TWIN CITIES",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/13/2019",
+        "Others"
+      ],
+      [
+        "1/21/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 14,760 USD, Out-of-state tuition 30,438 USD"
+  },
+  {
+    "name": "UNIVERSITY OF DETROIT MERCY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/10/2020",
+        "Admissions"
+      ],
+      [
+        "7/3/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "28,000 USD"
+  },
+  {
+    "name": "JACKSON COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/5/2017",
+        "Retaliation"
+      ],
+      [
+        "7/5/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 8,742 USD, Out-of-state tuition 11,187 USD"
+  },
+  {
+    "name": "ALMA COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/20/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "10/20/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "40,258 USD"
+  },
+  {
+    "name": "ADRIAN COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/26/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "7/26/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "37,087 USD"
+  },
+  {
+    "name": "MONTGOMERY COLLEGE",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/19/2012",
+        "Athletics"
+      ],
+      [
+        "3/19/2012",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 9,966 USD, Out-of-state tuition 13,602 USD"
+  },
+  {
+    "name": "WILLIAMS COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/19/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "6/19/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,450 USD"
+  },
+  {
+    "name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/4/2019",
+        "Others"
+      ],
+      [
+        "8/13/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "51,832 USD"
+  },
+  {
+    "name": "MASSACHUSETTS COLLEGE OF ART & DESIGN",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/31/2017",
+        "Retaliation"
+      ],
+      [
+        "7/31/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 13,200 USD, Out-of-state tuition 36,400 USD"
+  },
+  {
+    "name": "HARVARD UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/7/2020",
+        "Others"
+      ],
+      [
+        "4/17/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "50,420 USD"
+  },
+  {
+    "name": "EMERSON COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/23/2013",
+        "Procedural Requirements"
+      ],
+      [
+        "12/23/2013",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "46,852 USD"
+  },
+  {
+    "name": "BRANDEIS UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/19/2019",
+        "Procedural Requirements"
+      ],
+      [
+        "3/1/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,395 USD"
+  },
+  {
+    "name": "BOSTON UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/12/2019",
+        "Others"
+      ],
+      [
+        "12/16/2013",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,948 USD"
+  },
+  {
+    "name": "BARD COLLEGE AT SIMON'S ROCK",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/9/2016",
+        "Retaliation"
+      ],
+      [
+        "3/9/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "55,082 USD"
+  },
+  {
+    "name": "BABSON COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/28/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "4/28/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "51,104 USD"
+  },
+  {
+    "name": "UNIVERSITY OF LOUISIANA AT LAFAYETTE",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/15/2019",
+        "Athletics"
+      ],
+      [
+        "2/15/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 9,912 USD, Out-of-state tuition 23,640 USD"
+  },
+  {
+    "name": "WASHBURN UNIVERSITY",
+    "state": "KS",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/30/2015",
+        "Retaliation"
+      ],
+      [
+        "5/14/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 8,312 USD, Out-of-state tuition 18,560 USD"
+  },
+  {
+    "name": "UNIVERSITY OF KANSAS",
+    "state": "KS",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/4/2015",
+        "Retaliation"
+      ],
+      [
+        "2/4/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 11,148 USD, Out-of-state tuition 27,358 USD"
+  },
+  {
+    "name": "INDIANA UNIVERSITY-PURDUE UNIVERSITY-FORT WAYNE",
+    "state": "IN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/10/2016",
+        "Retaliation"
+      ],
+      [
+        "6/10/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 8,450 USD, Out-of-state tuition 20,288 USD"
+  },
+  {
+    "name": "NORTHWESTERN UNIVERSITY",
+    "state": "IL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/2/2018",
+        "Procedural Requirements"
+      ],
+      [
+        "10/10/2018",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "54,568 USD"
+  },
+  {
+    "name": "KNOX COLLEGE",
+    "state": "IL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/2/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "12/2/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "46,554 USD"
+  },
+  {
+    "name": "UNIVERSITY OF IOWA",
+    "state": "IA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/16/2019",
+        "Others"
+      ],
+      [
+        "12/5/2019",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state tuition 9,267 USD, Out-of-state tuition 31,233 USD"
+  },
+  {
+    "name": "IOWA STATE UNIVERSITY",
+    "state": "IA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/13/2019",
+        "Denial of Benefits"
+      ],
+      [
+        "11/3/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 8,988 USD, Out-of-state tuition 23,392 USD"
+  },
+  {
+    "name": "DRAKE UNIVERSITY",
+    "state": "IA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/3/2014",
+        "Procedural Requirements"
+      ],
+      [
+        "10/3/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "41,396 USD"
+  },
+  {
+    "name": "OGLETHORPE UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/26/2017",
+        "Denial of Benefits"
+      ],
+      [
+        "6/23/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "38,100 USD"
+  },
+  {
+    "name": "STETSON UNIVERSITY",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/29/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "11/29/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "46,030 USD"
+  },
+  {
+    "name": "GULF COAST STATE COLLEGE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/9/2015",
+        "Denial of Benefits"
+      ],
+      [
+        "1/9/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state tuition 2,370 USD, Out-of-state tuition 8,633 USD"
+  },
+  {
+    "name": "YALE UNIVERSITY",
+    "state": "CT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/26/2018",
+        "Others"
+      ],
+      [
+        "8/12/2019",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "53,430 USD"
+  },
+  {
+    "name": "QUINNIPIAC UNIVERSITY",
+    "state": "CT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/7/2018",
+        "Retaliation"
+      ],
+      [
+        "7/19/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "47,960 USD"
+  },
+  {
+    "name": "STANFORD UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/28/2018",
+        "Admissions"
+      ],
+      [
+        "6/21/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "51,354 USD"
+  },
+  {
+    "name": "SONOMA STATE UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/8/2019",
+        "Retaliation"
+      ],
+      [
+        "3/8/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 7,798 USD, Out-of-state tuition 19,678 USD"
+  },
+  {
+    "name": "SANTA CLARA UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/24/2015",
+        "Procedural Requirements"
+      ],
+      [
+        "11/24/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "51,711 USD"
+  },
+  {
+    "name": "DONGGUK UNIVERSITY LOS ANGELES",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/29/2020",
+        "Procedural Requirements"
+      ],
+      [
+        "1/29/2020",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "6,850 USD"
+  },
+  {
+    "name": "CALIFORNIA STATE UNIVERSITY-SAN MARCOS",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/27/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "10/27/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,713 USD, Out-of-state 19,593 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ALABAMA",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/3/2016",
+        "Procedural Requirements"
+      ],
+      [
+        "3/3/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 10,780 USD, Out-of-state 29,230 USD"
+  },
+  {
+    "name": "ALABAMA A & M UNIVERSITY",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/24/2016",
+        "Retaliation"
+      ],
+      [
+        "8/24/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,744 USD, Out-of-state 18,354 USD"
+  },
+  {
+    "name": "JAMES RUMSEY TECHNICAL INSTITUTE",
+    "state": "WV",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/19/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "4,104 USD"
+  },
+  {
+    "name": "BETHANY COLLEGE",
+    "state": "WV",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/28/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "29,773 USD"
+  },
+  {
+    "name": "UNIVERSITY OF WISCONSIN-STOUT",
+    "state": "WI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/14/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 9,457 USD, Out-of-state 17,424 USD"
+  },
+  {
+    "name": "UNIVERSITY OF WISCONSIN-LA CROSSE",
+    "state": "WI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/2/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,107 USD, Out-of-state 17,776 USD"
+  },
+  {
+    "name": "LAWRENCE UNIVERSITY",
+    "state": "WI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/25/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "47,475 USD"
+  },
+  {
+    "name": "WHITMAN COLLEGE",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/7/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "52,764 USD"
+  },
+  {
+    "name": "WASHINGTON STATE UNIVERSITY",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/25/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 11,584 USD, Out-of-state 25,820 USD"
+  },
+  {
+    "name": "EDMONDS CC",
+    "state": "WA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/19/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 4,136 USD, Out-of-state 9,506 USD"
+  },
+  {
+    "name": "UNIVERSITY OF THE VIRGIN ISLANDS",
+    "state": "VI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/23/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 5,235 USD, Out-of-state 14,496 USD"
+  },
+  {
+    "name": "VIRGINIA COMMONWEALTH UNIVERSITY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/8/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 14,493 USD, Out-of-state 35,834 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MARY WASHINGTON",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/30/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 12,714 USD, Out-of-state 28,648 USD"
+  },
+  {
+    "name": "LIBERTY UNIVERSITY",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/3/2015",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "22,584 USD"
+  },
+  {
+    "name": "BLUEFIELD COLLEGE",
+    "state": "VA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/10/2018",
+        "Athletics"
+      ]
+    ],
+    "tuition": "26,060 USD"
+  },
+  {
+    "name": "TRINITY UNIVERSITY",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/31/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "42,976 USD"
+  },
+  {
+    "name": "THE UNIVERSITY OF TEXAS SYSTEM OFFICE",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/22/2016",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "NA"
+  },
+  {
+    "name": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/24/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "$4,536 per year"
+  },
+  {
+    "name": "THE UNIVERSITY OF TEXAS AT SAN ANTONIO",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/1/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,049 USD, Out-of-state 19,538 USD"
+  },
+  {
+    "name": "THE UNIVERSITY OF TEXAS AT ARLINGTON",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/8/2016",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 10,496 USD, Out-of-state 26,533 USD"
+  },
+  {
+    "name": "TEXAS A AND M UNIVERSITY - MAIN CAMPUS",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/18/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 11,870 USD, Out-of-state 37,495 USD"
+  },
+  {
+    "name": "RICE UNIVERSITY",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/30/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "47,350 USD"
+  },
+  {
+    "name": "PALO ALTO COLLEGE",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/17/2017",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 6,300 USD, Out-of-state 13,830 USD"
+  },
+  {
+    "name": "DEL MAR COLLEGE",
+    "state": "TX",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/19/2015",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 4,029 USD, Out-of-state 5,334 USD"
+  },
+  {
+    "name": "MOTLOW STATE COMMUNITY COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/20/2013",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 4,241 USD, Out-of-state 16,529 USD"
+  },
+  {
+    "name": "MIDDLE TENNESSEE STATE UNIVERSITY",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/8/2016",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 8,858 USD, Out-of-state 27,098 USD"
+  },
+  {
+    "name": "MEHARRY MEDICAL COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/21/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "27,481 USD"
+  },
+  {
+    "name": "MARYVILLE COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/30/2018",
+        "Athletics"
+      ]
+    ],
+    "tuition": "34,880 USD"
+  },
+  {
+    "name": "LANE COLLEGE",
+    "state": "TN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/28/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "11,500 USD"
+  },
+  {
+    "name": "DAKOTA STATE UNIVERSITY",
+    "state": "SD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/10/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state tuition 9,276 USD, Out-of-state tuition 12,249 USD"
+  },
+  {
+    "name": "WOFFORD COLLEGE",
+    "state": "SC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/7/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "43,985 USD"
+  },
+  {
+    "name": "WINTHROP UNIVERSITY",
+    "state": "SC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/7/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 15,730 USD, Out-of-state tuition 29,986 USD"
+  },
+  {
+    "name": "FRANCIS MARION UNIVERSITY",
+    "state": "SC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/29/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,976 USD, Out-of-state tuition 22,488 USD"
+  },
+  {
+    "name": "UNIVERSITY OF RHODE ISLAND",
+    "state": "RI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/12/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state tuition 14,138 USD, Out-of-state tuition 30,862 USD"
+  },
+  {
+    "name": "RHODE ISLAND SCHOOL OF DESIGN",
+    "state": "RI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/27/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "50,960 USD"
+  },
+  {
+    "name": "NEW ENGLAND INSTITUTE OF TECHNOLOGY",
+    "state": "RI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/25/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "29,856 USD"
+  },
+  {
+    "name": "UNIVERSIDAD DE PUERTO RICO",
+    "state": "PR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/14/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 4,094 USD, Out-of-state tuition 6,049 USD"
+  },
+  {
+    "name": "URSINUS COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/31/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "52,050 USD"
+  },
+  {
+    "name": "MUHLENBERG COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/13/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "52,595 USD"
+  },
+  {
+    "name": "LINCOLN UNIVERSITY",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/7/2016",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state tuition 11,036 USD, Out-of-state tuition 16,952 USD"
+  },
+  {
+    "name": "KINGS COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/29/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "37,226 USD"
+  },
+  {
+    "name": "FRANKLIN AND MARSHALL COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/26/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "56,550 USD"
+  },
+  {
+    "name": "EAST STROUDSBURG UNIVERSITY OF PENNSYLVANIA",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/8/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,502 USD, Out-of-state tuition 24,184 USD"
+  },
+  {
+    "name": "CLARION UNIVERSITY OF PENNSYLVANIA",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/23/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,175 USD, Out-of-state tuition 16,054 USD"
+  },
+  {
+    "name": "ALLEGHENY COLLEGE",
+    "state": "PA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/5/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "47,540 USD"
+  },
+  {
+    "name": "REED COLLEGE",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/25/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "56,340 USD"
+  },
+  {
+    "name": "LEWIS & CLARK COLLEGE",
+    "state": "OR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/2/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "50,934 USD"
+  },
+  {
+    "name": "TULSA COMMUNITY COLLEGE",
+    "state": "OK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/7/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 3,349 USD, Out-of-state tuition 8,581 USD"
+  },
+  {
+    "name": "OKLAHOMA PANHANDLE STATE UNIVERSITY",
+    "state": "OK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/10/2008",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state tuition 7,930 USD, Out-of-state tuition 8,674 USD"
+  },
+  {
+    "name": "LANGSTON UNIVERSITY",
+    "state": "OK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/23/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state tuition 6,226 USD, Out-of-state tuition 13,586 USD"
+  },
+  {
+    "name": "WRIGHT STATE UNIVERSITY-MAIN CAMPUS",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/27/2017",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state tuition 9,254 USD, Out-of-state tuition 18,398 USD"
+  },
+  {
+    "name": "UNIVERSITY OF TOLEDO",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/6/2018",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state tuition 10,293 USD, Out-of-state tuition 19,653 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CINCINNATI-MAIN CAMPUS",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/17/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,000 USD, Out-of-state tuition 27,334 USD"
+  },
+  {
+    "name": "UNIVERSITY OF AKRON",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/25/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 11,463 USD, Out-of-state tuition 15,500 USD"
+  },
+  {
+    "name": "THE CHRIST COLLEGE OF NURSING",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/23/2016",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "16,203 USD"
+  },
+  {
+    "name": "OHIO WESLEYAN UNIVERSITY",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/22/2017",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "45,760 USD"
+  },
+  {
+    "name": "HONDROS COLLEGE OF NURSING - TOLEDO/MAUMEE",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/25/2018",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "25,742 USD"
+  },
+  {
+    "name": "GODS BIBLE SCHOOL AND COLLEGE",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/3/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "7,040 USD"
+  },
+  {
+    "name": "DENISON UNIVERSITY",
+    "state": "OH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/18/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "51,960 USD"
+  },
+  {
+    "name": "UNION COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/16/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,290 USD"
+  },
+  {
+    "name": "TOURO COLLEGE OF OSTEOPATHIC MEDICINE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/21/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "56,520 USD"
+  },
+  {
+    "name": "THE NEW SCHOOL UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/8/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "49,064 USD"
+  },
+  {
+    "name": "THE NEW SCHOOL- PARSONS SCHOOL OF DESIGN",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/17/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "46,960 USD"
+  },
+  {
+    "name": "SUNY MONROE COMMUNITY COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/27/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "9,419 USD"
+  },
+  {
+    "name": "SUNY COLLEGE AT PLATTSBURGH",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/4/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 8,369 USD, Out-of-state tuition 18,149 USD"
+  },
+  {
+    "name": "SUNY COLLEGE AT BROCKPORT",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/12/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 8,412 USD, Out-of-state tuition 18,192 USD"
+  },
+  {
+    "name": "SUNY BROOME COMMUNITY COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/23/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state tuition 5,355 USD, Out-of-state tuition 10,083 USD"
+  },
+  {
+    "name": "SUNY AT DELHI",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/17/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state tuition 8,360 USD, Out-of-state tuition 12,330 USD"
+  },
+  {
+    "name": "ST LAWRENCE UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/30/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "54,846 USD"
+  },
+  {
+    "name": "ROCKEFELLER UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/17/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "NA"
+  },
+  {
+    "name": "POLYTECHNIC INSTITUTE OF NEW YORK UNIVERSITY",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/22/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "46,376 USD"
+  },
+  {
+    "name": "NEW YORK COLLEGE OF HEALTH PROFESSIONS",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/26/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "14,226 USD"
+  },
+  {
+    "name": "MARIST COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/13/2018",
+        "Athletics"
+      ]
+    ],
+    "tuition": "39,600 USD"
+  },
+  {
+    "name": "CUNY GRADUATE CENTER",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/7/2016",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "6,030 USD"
+  },
+  {
+    "name": "BARNARD COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/29/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "55,032 USD"
+  },
+  {
+    "name": "BARD COLLEGE",
+    "state": "NY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/30/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "54,680 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NV-RENO",
+    "state": "NV",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/26/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 7,599 USD, Out-of-state 22,236 USD"
+  },
+  {
+    "name": "NEW MEXICO MILITARY INSTITUTE",
+    "state": "NM",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/12/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 4,530 USD, Out-of-state 14,534 USD"
+  },
+  {
+    "name": "STOCKTON UNIVERSITY",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/14/2018",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,739 USD, Out-of-state 20,866 USD"
+  },
+  {
+    "name": "SETON HALL UNIVERSITY",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/22/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "42,170 USD"
+  },
+  {
+    "name": "MONMOUTH UNIVERSITY",
+    "state": "NJ",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/21/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "38,138 USD"
+  },
+  {
+    "name": "FRANKLIN PIERCE UNIVERSITY",
+    "state": "NH",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/2/2019",
+        "Athletics"
+      ]
+    ],
+    "tuition": "36,900 USD"
+  },
+  {
+    "name": "CREIGHTON UNIVERSITY",
+    "state": "NE",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/16/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "39,916 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NORTH CAROLINA-WILMINGTON",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/3/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 7,091 USD, Out-of-state 21,156 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/11/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 6,853 USD, Out-of-state 20,287 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/3/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 8,987 USD, Out-of-state 35,170 USD"
+  },
+  {
+    "name": "METHODIST UNIVERSITY",
+    "state": "NC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/1/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "33,852 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+    "state": "MS",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/9/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 8,624 USD, Out-of-state 10,624 USD"
+  },
+  {
+    "name": "WASHINGTON UNIVERSITY IN ST. LOUIS",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/10/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "53,399 USD"
+  },
+  {
+    "name": "NORTHWEST MISSOURI STATE UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/25/2017",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state 7,844 USD, Out-of-state 13,166 USD"
+  },
+  {
+    "name": "MISSOURI UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/21/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 9,440 USD, Out-of-state 26,461 USD"
+  },
+  {
+    "name": "MISSOURI STATE UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/29/2017",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 7,376 USD, Out-of-state 15,326 USD"
+  },
+  {
+    "name": "METROPOLITAN COMMUNITY COLLEGE",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/8/2016",
+        "Gender Harassment"
+      ]
+    ],
+    "tuition": "In-state 3,105 USD, Out-of-state 4,545 USD"
+  },
+  {
+    "name": "HARRIS-STOWE STATE UNIVERSITY",
+    "state": "MO",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/23/2014",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 5,388 USD, Out-of-state 10,020 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MINNESOTA-DULUTH",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/24/2016",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 13,366 USD, Out-of-state 18,484 USD"
+  },
+  {
+    "name": "SAINT OLAF COLLEGE",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/24/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "47,840 USD"
+  },
+  {
+    "name": "SAINT CLOUD STATE UNIVERSITY",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/5/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 8,265 USD, Out-of-state 16,499 USD"
+  },
+  {
+    "name": "DAKOTA COUNTY TECHNICAL COLLEGE",
+    "state": "MN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/1/2015",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 5,713 USD, Out-of-state 5,713 USD"
+  },
+  {
+    "name": "SPRING ARBOR UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/8/2016",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "28,810 USD"
+  },
+  {
+    "name": "SCHOOLCRAFT COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/7/2017",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state 5,176 USD, Out-of-state 7,230 USD"
+  },
+  {
+    "name": "SAGINAW VALLEY STATE UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/20/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 10,308 USD, Out-of-state 24,215 USD"
+  },
+  {
+    "name": "LAWRENCE TECHNOLOGICAL UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/26/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "33,570 USD"
+  },
+  {
+    "name": "KETTERING UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/16/2019",
+        "Admissions"
+      ]
+    ],
+    "tuition": "43,490 USD"
+  },
+  {
+    "name": "KELLOGG COMMUNITY COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/4/2016",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 6,072 USD, Out-of-state 8,480 USD"
+  },
+  {
+    "name": "HENRY FORD COLLEGE",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/1/2016",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state 4,876 USD, Out-of-state 6,748 USD"
+  },
+  {
+    "name": "GRAND VALLEY STATE UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/20/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 12,484 USD, Out-of-state 17,762 USD"
+  },
+  {
+    "name": "ANDREWS UNIVERSITY",
+    "state": "MI",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/6/2018",
+        "Discipline"
+      ]
+    ],
+    "tuition": "29,288 USD"
+  },
+  {
+    "name": "UNIVERSITY OF NEW ENGLAND",
+    "state": "ME",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/7/2016",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "37,620 USD"
+  },
+  {
+    "name": "SOUTHERN MAINE COMMUNITY COLLEGE",
+    "state": "ME",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/22/2020",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 3,770 USD, Out-of-state 6,590 USD"
+  },
+  {
+    "name": "SAINT JOSEPH'S COLLEGE",
+    "state": "ME",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/6/2019",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "27,830 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MARYLAND-BALTIMORE COUNTY",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/7/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 11,778 USD, Out-of-state 26,872 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MARYLAND GLOBAL CAMPUS",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/14/2020",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 7,416 USD, Out-of-state 12,336 USD"
+  },
+  {
+    "name": "MOUNT SAINT MARY'S UNIVERSITY",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/2/2019",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "41,350 USD"
+  },
+  {
+    "name": "MCDANIEL COLLEGE",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/29/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "43,260 USD"
+  },
+  {
+    "name": "BOWIE STATE UNIVERSITY",
+    "state": "MD",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/6/2020",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 8,234 USD, Out-of-state 18,874 USD"
+  },
+  {
+    "name": "WORCESTER POLYTECHNIC INSTITUTE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/13/2020",
+        "Others"
+      ]
+    ],
+    "tuition": "50,530 USD"
+  },
+  {
+    "name": "UNIVERSITY OF MASSACHUSETTS-DARTMOUTH",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/16/2014",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 13,921 USD, Out-of-state 29,141 USD"
+  },
+  {
+    "name": "LESLEY UNIVERSITY",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/13/2017",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "27,975 USD"
+  },
+  {
+    "name": "BOSTON COLLEGE",
+    "state": "MA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/27/2019",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "55,464 USD"
+  },
+  {
+    "name": "TULANE UNIVERSITY OF LOUISIANA",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/7/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "54,820 USD"
+  },
+  {
+    "name": "NORTHWESTERN STATE UNIVERSITY OF LOUISIANA",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/18/2014",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 7,922 USD, Out-of-state 18,710 USD"
+  },
+  {
+    "name": "LOYOLA UNIVERSITY NEW ORLEANS",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/5/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "39,942 USD"
+  },
+  {
+    "name": "DELTA COLLEGE",
+    "state": "LA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/18/2016",
+        "Gender Harassment"
+      ]
+    ],
+    "tuition": "In-state 6,410 USD, Out-of-state 11,480 USD"
+  },
+  {
+    "name": "WESTERN KENTUCKY UNIVERSITY",
+    "state": "KY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/19/2016",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 10,512 USD, Out-of-state 26,280 USD"
+  },
+  {
+    "name": "UNIVERSITY OF KENTUCKY",
+    "state": "KY",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/14/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 12,245 USD, Out-of-state 29,099 USD"
+  },
+  {
+    "name": "KANSAS CITY KANSAS COMMUNITY COLLEGE",
+    "state": "KS",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/3/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 3,300 USD, Out-of-state 6,510 USD"
+  },
+  {
+    "name": "UNIVERSITY OF INDIANAPOLIS",
+    "state": "IN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/20/2019",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "29,688 USD"
+  },
+  {
+    "name": "INDIANA UNIVERSITY-BLOOMINGTON",
+    "state": "IN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/13/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 10,681 USD, Out-of-state 35,456 USD"
+  },
+  {
+    "name": "BALL STATE UNIVERSITY",
+    "state": "IN",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/30/2019",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 9,896 USD, Out-of-state 26,468 USD"
+  },
+  {
+    "name": "ILLINOIS INSTITUTE OF TECHNOLOGY",
+    "state": "IL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/29/2018",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "47,646 USD"
+  },
+  {
+    "name": "SPELMAN COLLEGE",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/19/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "29,064 USD"
+  },
+  {
+    "name": "MOREHOUSE COLLEGE",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/19/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "27,576 USD"
+  },
+  {
+    "name": "LIFE UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/26/2017",
+        "Gender Harassment"
+      ]
+    ],
+    "tuition": "12,696 USD"
+  },
+  {
+    "name": "GEORGIA STATE UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/26/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 9,112 USD, Out-of-state 23,971 USD"
+  },
+  {
+    "name": "GEORGIA SOUTHERN UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/30/2015",
+        "Athletics"
+      ]
+    ],
+    "tuition": "In-state 6,356 USD, Out-of-state 17,142 USD"
+  },
+  {
+    "name": "GEORGIA INSTITUTE OF TECHNOLOGY-MAIN CAMPUS",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/23/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 12,424 USD, Out-of-state 33,020 USD"
+  },
+  {
+    "name": "GEORGIA COLLEGE AND STATE UNIVERSITY",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/2/2018",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 9,346 USD, Out-of-state 28,060 USD"
+  },
+  {
+    "name": "COVENANT COLLEGE",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/24/2015",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "34,330 USD"
+  },
+  {
+    "name": "AUGUSTA TECHNICAL COLLEGE",
+    "state": "GA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/20/2015",
+        "Gender Harassment"
+      ]
+    ],
+    "tuition": "In-state 2,794 USD, Out-of-state 4,930 USD"
+  },
+  {
+    "name": "VALENCIA COLLEGE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "7/26/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 2,474 USD, Out-of-state 9,383 USD"
+  },
+  {
+    "name": "UNIVERSITY OF WEST FLORIDA",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/7/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 6,360 USD, Out-of-state 19,241 USD"
+  },
+  {
+    "name": "HILLSBOROUGH COMMUNITY COLLEGE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/8/2017",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "In-state 2,506 USD, Out-of-state 9,111 USD"
+  },
+  {
+    "name": "FLORIDA INSTITUTE OF TECHNOLOGY-MELBOURNE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/23/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "41,850 USD"
+  },
+  {
+    "name": "FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "4/2/2018",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 5,785 USD, Out-of-state 17,725 USD"
+  },
+  {
+    "name": "FLAGLER TECHNICAL INSTITUTE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/3/2015",
+        "Admissions"
+      ]
+    ],
+    "tuition": "$1,039"
+  },
+  {
+    "name": "FLAGLER COLLEGE",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/29/2018",
+        "Discipline"
+      ]
+    ],
+    "tuition": "18,950 USD"
+  },
+  {
+    "name": "AMERICAN MEDICAL ACADEMY",
+    "state": "FL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "9/5/2014",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "$11,480"
+  },
+  {
+    "name": "GEORGETOWN UNIVERSITY",
+    "state": "DC",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/11/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "54,104 USD"
+  },
+  {
+    "name": "WESTERN CONNECTICUT STATE UNIV",
+    "state": "CT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/13/2020",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 10,859 USD, Out-of-state 23,367 USD"
+  },
+  {
+    "name": "WESLEYAN UNIVERSITY",
+    "state": "CT",
+    "type": "PSE",
+    "incidents": [
+      [
+        "3/23/2016",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "54,944 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SAN DIEGO",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/6/2015",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "49,358 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CALIFORNIA-SANTA CRUZ",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/8/2020",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 13,960 USD, Out-of-state 42,952 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CALIFORNIA-SAN DIEGO",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/27/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 14,167 USD, Out-of-state 43,159 USD"
+  },
+  {
+    "name": "UNIVERSITY OF CALIFORNIA-BERKELEY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/28/2019",
+        "Others"
+      ]
+    ],
+    "tuition": "In-state 14,184 USD, Out-of-state 43,176 USD"
+  },
+  {
+    "name": "SAN JOSE STATE UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "10/12/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 7,796 USD, Out-of-state 19,676 USD"
+  },
+  {
+    "name": "MENLO COLLEGE",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "5/25/2017",
+        "Procedural Requirements"
+      ]
+    ],
+    "tuition": "42,800 USD"
+  },
+  {
+    "name": "LOYOLA MARYMOUNT UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "6/8/2016",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "48,522 USD"
+  },
+  {
+    "name": "HUMBOLDT STATE UNIVERSITY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/30/2020",
+        "Sexual Violence"
+      ]
+    ],
+    "tuition": "In-state 7,675 USD, Out-of-state 19,555 USD"
+  },
+  {
+    "name": "CALIFORNIA STATE UNIVERSITY - MARITIME ACADEMY",
+    "state": "CA",
+    "type": "PSE",
+    "incidents": [
+      [
+        "11/21/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 7,056 USD, Out-of-state 18,936 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
+    "state": "AR",
+    "type": "PSE",
+    "incidents": [
+      [
+        "2/8/2017",
+        "Retaliation"
+      ]
+    ],
+    "tuition": "In-state 9,544 USD, Out-of-state 21,754 USD"
+  },
+  {
+    "name": "UNIVERSITY OF SOUTH ALABAMA",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "8/23/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 8,396 USD, Out-of-state 16,292 USD"
+  },
+  {
+    "name": "AUBURN UNIVERSITY MAIN CAMPUS",
+    "state": "AL",
+    "type": "PSE",
+    "incidents": [
+      [
+        "12/18/2019",
+        "Denial of Benefits"
+      ]
+    ],
+    "tuition": "In-state 11,276 USD, Out-of-state 30,524 USD"
+  },
+  {
+    "name": "UNIVERSITY OF ALASKA - FAIRBANKS",
+    "state": "AK",
+    "type": "PSE",
+    "incidents": [
+      [
+        "1/19/2017",
+        "Sexual Harassment"
+      ]
+    ],
+    "tuition": "In-state 6,657 USD, Out-of-state 20,218 USD"
+  }
+]

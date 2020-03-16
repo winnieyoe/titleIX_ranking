@@ -1,0 +1,23 @@
+{
+  "name": "TitleIX",
+  "version": "1.0.0",
+  "description": "",
+  "main": "htmlToCsv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winnieyoe/titleIX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winnieyoe/titleIX/issues"
+  },
+  "homepage": "https://github.com/winnieyoe/titleIX#readme",
+  "dependencies": {
+//    "puppeteer": "^2.1.1"
+  }
+}
