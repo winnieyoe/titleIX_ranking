@@ -10,7 +10,7 @@ let sortedSexualList;
 let sorted_schools = [];
 
 function preload() {
-  table = loadTable("assets/TitleIXAll.csv", "csv", "header");
+  table = loadTable("assets/allcases_fromOCR.csv", "csv", "header");
   tuitionList = loadJSON("assets/tuitions_cleaned.json")
 }
 
@@ -22,7 +22,10 @@ function setup() {
     let name = table.getRow(i).get("Institution");
     let type = table.getRow(i).get("Institution Type");
     let complaint = table.getRow(i).get("Type of Discrimination").substring(11);
-    let date = table.getRow(i).get("Open Investigation Date");
+    let day= table.getRow(i).get("Open Investigation Date").split("/")[1];
+    let month = table.getRow(i).get("Open Investigation Date").split("/")[0];
+    let year = table.getRow(i).get("Open Investigation Date").split("/")[2];
+    let date = year + "-" + month + "-" + day;
 
     let isSchoolExisted = false;
     let isSchoolSexualExisted = false;
@@ -43,7 +46,7 @@ function setup() {
       name: name,
       state: state,
       type: type,
-      incidents: [[date, complaint]],
+      incidents: [{date: date, complaint: complaint}],
     }
 
     // BIG LIST, NO FILTERING ON TYPE
@@ -51,7 +54,7 @@ function setup() {
       for (let i=0; i<schools.length; i++) {
         if (schools[i].name === name) {
           // console.log(name, complaint)
-          schools[i].incidents.push([date, complaint]);
+          schools[i].incidents.push({date: date, complaint: complaint});
           isSchoolExisted = true;
           break
         }
@@ -85,6 +88,28 @@ function setup() {
   sortedFreqList = schools.sort((a,b) => (b.incidents.length > a.incidents.length) ? 1 : -1)
   // console.log(sortedFreqList);
 
+  ////SORT INCIDENTS ARRAY BASED ON DATE
+  let casesByDate;
+  for (let i=0; i<sortedFreqList.length; i++){
+    for (let j=0; j<sortedFreqList[i].incidents.length;j++){
+      casesByDate = sortedFreqList[i].incidents.sort(function(a, b){
+        if(a.date < b.date) {
+          return -1
+        } else if (a.date == b.date){
+          return 0;
+        } else {
+          return 1;
+        }
+        // console.log(a.date,b.date)
+        // let dateA = sortedFreqList[i].incidents[j].date;
+        // console.log(sortedFreqList[i].incidents[j][0], Date.parse(sortedFreqList[i].incidents[j][0]))
+        // return a[sortedFreqList[i].incidents[j][0]]<b[sortedFreqList[i].incidents[j][0]]
+        }
+      )
+    }
+  }
+  console.log(sortedFreqList)
+
   // console.log(schools_sexual);
   sortedSexualList = schools_sexual.sort((a,b) => (b.incidents.length > a.incidents.length) ? 1 : -1)
   // console.log(sortedSexualList);
@@ -99,13 +124,15 @@ function setup() {
   ////ADD TUITION INFO AFTER PUPPETEER
   for (let i=0; i<sortedFreqList.length; i++){
     if(sortedFreqList[i].name === tuitionList[i].name){
+      sortedFreqList[i].totalNum = sortedFreqList[i].incidents.length;
       sortedFreqList[i].tuition = tuitionList[i].tuition;
     } else {
       // console.log("no", sortedFreqList[i].name)
       // console.log("missing", sortedFreqList[i].name)
     }
   }
-  console.log(sortedFreqList)
+
+  // console.log("sorted", sortedFreqList)
 }
 
 function draw() {
@@ -113,77 +140,6 @@ function draw() {
 
 function mousePressed() {
   // saveJSON(sortedFreqList, 'sorted_all.json');
-  // saveJSON(sorted_schools, 'sorted_schools.json');
-  saveJSON(sortedFreqList, 'sorted_tuitionAdded.json');
+  // saveJSON(sorted_schools, 'list_of_schools.json');
+  // saveJSON(sortedFreqList, 'sorted_list.json');
 }
-
-//Puppeteer
-let list = [
-  "GEORGIA STATE UNIVERSITY",
-  "GEORGIA SOUTHERN UNIVERSITY",
-  "GEORGIA INSTITUTE OF TECHNOLOGY-MAIN CAMPUS",
-  "GEORGIA COLLEGE AND STATE UNIVERSITY",
-  "COVENANT COLLEGE",
-  "AUGUSTA TECHNICAL COLLEGE",
-  "VALENCIA COLLEGE",
-  "UNIVERSITY OF WEST FLORIDA",
-  "HILLSBOROUGH COMMUNITY COLLEGE",
-  "FLORIDA INSTITUTE OF TECHNOLOGY-MELBOURNE",
-  "FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY",
-  "FLAGLER TECHNICAL INSTITUTE",
-  "FLAGLER COLLEGE",
-  "AMERICAN MEDICAL ACADEMY",
-  "GEORGETOWN UNIVERSITY",
-  "WESTERN CONNECTICUT STATE UNIV",
-  "WESLEYAN UNIVERSITY",
-  "UNIVERSITY OF SAN DIEGO",
-  "UNIVERSITY OF CALIFORNIA-SANTA CRUZ",
-  "UNIVERSITY OF CALIFORNIA-SAN DIEGO",
-  "UNIVERSITY OF CALIFORNIA-BERKELEY",
-  "SAN JOSE STATE UNIVERSITY",
-  "MENLO COLLEGE",
-  "LOYOLA MARYMOUNT UNIVERSITY",
-  "HUMBOLDT STATE UNIVERSITY",
-  "CALIFORNIA STATE UNIVERSITY - MARITIME ACADEMY",
-  "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
-  "UNIVERSITY OF SOUTH ALABAMA",
-  "AUBURN UNIVERSITY MAIN CAMPUS",
-  "UNIVERSITY OF ALASKA - FAIRBANKS"
-]
-
-let test = ["UNIVERSITY OF FLORIDA", "COLLEGE OF WILLIAM AND MARY"];
-let tuitions =[];
-const fs = require ('fs');
-const puppeteer = require('puppeteer');
-
-async function run(){
-  const browser = await puppeteer.launch({ headless: false });
-  const page = await browser.newPage();
-
-  for(let i=0; i<list.length; i++){
-    await page.goto('https://google.com');
-    await page.type('input.gLFyf.gsfi', list[i] + ' tuition')
-    page.keyboard.press("Enter")
-    await page.waitForSelector(".Z0LcW")
-
-    const tuition = await page.evaluate(() => document.querySelector('.Z0LcW').innerText)
-    let school_name = list[i];
-    tuitions.push({name:school_name, tuition});
-  }
-    await browser.close();
-    return tuitions;
-    // console.log(tuitions)
-}
-
-// run().then((value) => console.log(value)).catch(error => console.log(error));
-const init = async () => {
-	try {
-		const gotTuition = await run();
-		fs.writeFileSync('assets/list9.json', JSON.stringify(gotTuition));
-		console.log('Succes');
-	} catch (error) {
-		console.log('Error', error);
-	}
-};
-
-init();

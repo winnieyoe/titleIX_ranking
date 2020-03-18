@@ -1,1 +1,20 @@
-/* 
+body {
+  width: 70%;
+  margin: 5% auto 5% auto;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+table.dataTable th,
+table.dataTable td {
+  white-space: nowrap;
+  word-break: break-word;
+  vertical-align: top;
+}
+
+#ranking_table_length {
+  margin-bottom: 2%;
+}
