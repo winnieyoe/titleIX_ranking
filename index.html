@@ -5,11 +5,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" charset="utf-8"></script>
-    <!-- <link href="https://unpkg.com/tabulator-tables@4.5.3/dist/css/tabulator.min.css" rel="stylesheet">
-    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.5.3/dist/js/tabulator.min.js"></script> -->
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/fh-3.1.6/r-2.2.3/sp-1.0.1/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/fh-3.1.6/r-2.2.3/sp-1.0.1/datatables.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:400,800&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <style type="text/css">
     </style>
@@ -18,7 +18,9 @@
   </head>
 
   <body>
-    <h1>2020 US Colleges Ranking <br> (By Number of Active Title IX Investigations)</h1>
+    <div id="page-title">
+      <h1>2020 US Colleges Ranking<br/><span id="subtitle">By Number of Active Title IX Investigations</span></h1>
+    </div>
     <div class="table-responsive">
       <table class="display responsive nowrap" id="ranking_table"></table>
     </div>

@@ -11,12 +11,13 @@
 
 
 
-$("#ranking_table").DataTable({
+dTable = $("#ranking_table").DataTable({
   "sAjaxDataProp":"",
   "ajaxSource":"assets/sorted_list.json",
   "atuoWidth": false,
   "pageLength": 50,
   "order": [[3, "desc"]],
+  // "dom":"lrtip",
   "columns":[
       {"title": "School", "data": "name"},
       {"title": "State", "data": "state"},
@@ -34,7 +35,7 @@ $("#ranking_table").DataTable({
       //           return cArr.join("<br/>");
       //           }
       // }
-      {"title": "Detail", "data": "incidents",
+      {"title": "Case Info", "data": "incidents",
                 "render": function(data, type, row){
                   var div = "<div>";
                     $.each(data, function(key, value){
@@ -49,3 +50,7 @@ $("#ranking_table").DataTable({
     "orderable": false,
   }]
 })
+
+// $('#customSearch').keyup(function(){
+//       dTable.search($(this).val()).draw();   // this  is for customized searchbox with datatable search feature.
+//  })
