@@ -8,7 +8,7 @@ src: local('assets/fonts/Calibre Regular'), url('assets/fonts/CalibreRegular.wof
 @font-face {font-family: "Basis Grotesque"; src: url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.eot"); src: url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.woff") format("woff"), url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fb3ddfb68f7942d3a38bb6b63f96ac89.svg#Basis Grotesque") format("svg"); }
 
 body {
-  width: 75%;
+  width: 70%;
   margin: 5% auto 5% auto;
   font-family: 'Basis Grotesque', sans-serif;
 }
@@ -16,44 +16,36 @@ body {
 h1{
   font-family: 'Spectral', serif;
   font-weight: 800;
-  font-size: 48px;
-  line-height: 1;
+  font-size: 32px;
+  line-height: 0.9;
 }
 
 /* TITLE CSS*/
 #page-title{
-  text-align: center;
+  text-align: left;
   margin-bottom: 8%;
 }
 
 #subtitle{
-  font-size: 28px;
+  font-size: 18px;
 }
 
 /* TABLE CSS*/
-#ranking_table{
+#total_table{
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-#ranking_table_length {
+#total_table_length {
   margin-bottom: 2%;
 }
 
 .dataTables_length select {
-    font-size: 14px;
+    font-size: 12px;
     height: 35px;
     width: 50px;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.dataTables_wrapper .dataTables_length {
-  float: right;
-}
-
-.dataTables_wrapper .dataTables_filter {
-  float: left;
 }
 
 input[type=search]{
@@ -61,13 +53,13 @@ input[type=search]{
   padding: 10px;
   border-radius: 5px;
   background: #F8F8F8;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 
 /* Top & Bottom of Table:Show Entry, Search, Next */
 label{
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Spectral';
   font-weight: 400;
 }
@@ -79,38 +71,40 @@ label{
 .dataTables_info{
   font-family: 'Spectral';
   font-weight: 400;
+  font-size: 12px;
 }
 
 .dataTables_paginate{
   font-family: 'Spectral';
   font-weight: 400;
+  font-size: 12px;
 }
 
 /* Table Header for Each Item */
 .dtr-title{
   font-family: 'Spectral';
-  font-size: 18px;
+  font-size: 12px;
 }
 
 table.dataTable th{
   text-align: left;
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Spectral';
 }
 
 table.dataTable tr{
-  height: 70px;
+  height: 60px;
 }
 
 table.dataTable tbody td{
   font-family: 'Basis Grotesque';
-  font-size: 18px;
+  font-size: 14px;
   text-align: left;
-  padding: 0px 20px;
+  vertical-align: middle;
   /* margin-right: 10px; */
   /* line-height: 18px; */
 }
 
 table.dataTable td::before {
-  margin-top: 18px;
+  margin-top: 8px;
 }
