@@ -172,7 +172,7 @@ function setup() {
             sortedFreqList[i].countD = complaints[item]
             break;
 
-          case "Admission":
+          case "Admissions":
             sortedFreqList[i].countAd = complaints[item]
             break;
 
@@ -258,7 +258,7 @@ function setup() {
             sortedFreqList[i].dissemination.push(oneCase)
             break;
 
-          case "Admission":
+          case "Admissions":
             sortedFreqList[i].admissions.push(oneCase)
             break;
 
@@ -334,5 +334,5 @@ function setup() {
   function mousePressed() {
     // saveJSON(sortedFreqList, 'sorted_all.json');
     // saveJSON(sorted_schools, 'list_of_schools.json');
-    saveJSON(sortedFreqList, 'sorted_byType.json');
+    // saveJSON(sortedFreqList, 'sorted_byType.json');
   }

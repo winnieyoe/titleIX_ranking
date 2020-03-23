@@ -407,6 +407,7 @@
   {
     "name": "TUSKEGEE UNIVERSITY",
     "state": "AL",
+    "countAd": 1,
     "countB": 1,
     "countO": 1,
     "countP": 1,
@@ -417,6 +418,12 @@
       {
         "date": "2020-1-17",
         "complaint": "Sexual Harassment"
+      }
+    ],
+    "admissions": [
+      {
+        "date": "2016-1-8",
+        "complaint": "Admissions"
       }
     ],
     "others": [
@@ -3952,7 +3959,14 @@
     "name": "UNIVERSITY OF DETROIT MERCY",
     "state": "MI",
     "countB": 1,
+    "countAd": 1,
     "tuition": "28,000 USD",
+    "admissions": [
+      {
+        "date": "2020-1-10",
+        "complaint": "Admissions"
+      }
+    ],
     "benefits": [
       {
         "date": "2019-7-3",
@@ -4527,8 +4541,15 @@
   {
     "name": "STANFORD UNIVERSITY",
     "state": "CA",
+    "countAd": 1,
     "countO": 1,
     "tuition": "51,354 USD",
+    "admissions": [
+      {
+        "date": "2018-6-28",
+        "complaint": "Admissions"
+      }
+    ],
     "others": [
       {
         "date": "2019-6-21",
@@ -5853,7 +5874,14 @@
   {
     "name": "KETTERING UNIVERSITY",
     "state": "MI",
-    "tuition": "43,490 USD"
+    "countAd": 1,
+    "tuition": "43,490 USD",
+    "admissions": [
+      {
+        "date": "2019-12-16",
+        "complaint": "Admissions"
+      }
+    ]
   },
   {
     "name": "KELLOGG COMMUNITY COLLEGE",
@@ -6343,7 +6371,14 @@
   {
     "name": "FLAGLER TECHNICAL INSTITUTE",
     "state": "FL",
-    "tuition": "$1,039"
+    "countAd": 1,
+    "tuition": "$1,039",
+    "admissions": [
+      {
+        "date": "2015-3-3",
+        "complaint": "Admissions"
+      }
+    ]
   },
   {
     "name": "FLAGLER COLLEGE",

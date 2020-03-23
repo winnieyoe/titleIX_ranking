@@ -44,6 +44,13 @@ $('#search_school').on('keyup', function () {
     tableH.columns(0).search(this.value).draw();
     tableG.columns(0).search(this.value).draw();
     tableV.columns(0).search(this.value).draw();
+    totalR.columns(0).search(this.value).draw();
+    tableAd.columns(0).search(this.value).draw();
+    tableA.columns(0).search(this.value).draw();
+    tableB.columns(0).search(this.value).draw();
+    tableD.columns(0).search(this.value).draw();
+    tableP.columns(0).search(this.value).draw();
+    tableO.columns(0).search(this.value).draw();
 });
 
 $("#resetBtn").click(function(){
@@ -51,6 +58,13 @@ $("#resetBtn").click(function(){
   $("#violence").hide()
   $("#gender").hide()
   $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
 
   $(this).toggleClass('focus').siblings().removeClass('focus');
 })
@@ -132,17 +146,25 @@ $("#btnH").click(function(){
   $("#violence").hide()
   $("#gender").hide()
   $("#harass").show()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
   // $("#resetBtn").removeClass("focus")
   // $(this).addClass("focus")
   $(this).toggleClass('focus').siblings().removeClass('focus');
 
-  var nodes = [];
-  tableH.rows().every(function() {
-    if (this.data().harassment == undefined) nodes.push(this.node())
-    })
-    nodes.forEach(function(node) {
-      tableH.row(node).remove().draw()
-  })
+//// NODES: This part was added because previous data structure, where length is count includes those with 0 and we need to remove those items
+  // var nodes = [];
+  // tableH.rows().every(function() {
+  //   if (this.data().harassment == undefined) nodes.push(this.node())
+  //   })
+  //   nodes.forEach(function(node) {
+  //     tableH.row(node).remove().draw()
+  // })
   // $.fn.dataTable.ext.search.push(
   //       function(settings, data, dataIndex) {
   //         console.log(settings)
@@ -167,15 +189,22 @@ tableV = $("#violence_table").DataTable({
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "violence",
+      // {"title": "Type Count", "data": "violence",
+      //           "render": function (data, type, row){
+      //             var div = "<div>";
+      //             $.each(data, function(key, value){
+      //                 div = data.length;
+      //             });
+      //             return div + "</div>";
+      //           }, "class": "all", "data-priority": "2"
+      // },
+      {"title": "Type Count", "data": "countV",
                 "render": function (data, type, row){
-                  var div = "<div>";
-                  $.each(data, function(key, value){
-                      div = data.length;
-                  });
+                  if(data != undefined){
+                    div = data
+                  }
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"
-      },
+                }, "class": "all", "data-priority": "2"},
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "violence",
                 "render": function(data, type, row){
@@ -200,6 +229,13 @@ $("#btnV").click(function(){
   $("#violence").show()
   $("#gender").hide()
   $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
   // $("#resetBtn").removeClass("focus")
   // $(this).addClass("focus")
   $(this).toggleClass('focus').siblings().removeClass('focus');
@@ -242,11 +278,12 @@ tableG = $("#gender_table").DataTable({
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "gender",
                 "render": function(data, type, row){
-                  var div = "<div>";
+                    var div = "<div>";
                     $.each(data, function(key, value){
-                        div += value.date + " " + value.complaint + "<br>";
+                      div += value.date + " " + value.complaint + "<br>";
                     });
-                    return div + "</div>";
+
+                  return div + "</div>";
                 }, "className": "none"
       }
   ],
@@ -263,15 +300,387 @@ $("#btnG").click(function(){
   $("#violence").hide()
   $("#gender").show()
   $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
   // $("#resetBtn").removeClass("focus")
   // $(this).addClass("focus")
   $(this).toggleClass('focus').siblings().removeClass('focus');
 
-  var nodes = [];
-  tableV.rows().every(function() {
-    if (this.data().violence == undefined) nodes.push(this.node())
-    })
-    nodes.forEach(function(node) {
-      tableV.row(node).remove().draw()
-  })
+  // var nodes = [];
+  // tableV.rows().every(function() {
+  //   if (this.data().violence == undefined) nodes.push(this.node())
+  //   })
+  //   nodes.forEach(function(node) {
+  //     tableV.row(node).remove().draw()
+  // })
+})
+
+//////RETALIATION TABLE
+tableR = $("#retaliation_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countR",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "retaliation",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnR").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").show()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+//////ADMISSIONS TABLE
+tableAd = $("#admissions_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countAd",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "admissions",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnAd").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").show()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+
+//////Athletics TABLE
+tableA = $("#athletics_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countA",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "athletics",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnA").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").show()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+//////BENEFITS TABLE
+tableB = $("#benefits_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countB",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "benefits",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnB").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").show()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+//////DISSEMINATION TABLE
+tableD = $("#dissemination_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countD",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "dissemination",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnD").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").show()
+  $("#procedural").hide()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+//////PROCEDURAL TABLE
+tableP = $("#procedural_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countP",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "procedural",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnP").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").show()
+  $("#others").hide()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
+
+//////OTHERS TABLE
+tableO = $("#others_table").DataTable({
+  "sAjaxDataProp":"",
+  "ajaxSource":"assets/sorted_byType.json",
+  "responsive": true,
+  "pageLength": 50,
+  "dom": '<"table_filter"fl>t<"table_bottom"ip>',
+  "columns":[
+      {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
+      {"title": "State", "data": "state"},
+      {"title": "Type Count", "data": "countO",
+                "render": function (data, type, row){
+                  if(data != undefined){
+                    div = data
+                  }
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
+      {"title": "Case Info", "data": "others",
+                "render": function(data, type, row){
+                  var div = "<div>";
+                    $.each(data, function(key, value){
+                        div += value.date + " " + value.complaint + "<br>";
+                    });
+                    return div + "</div>";
+                }, "className": "none"
+      }
+  ],
+  "columnDefs": [{
+    "targets": [3,4],
+    "orderable": false,
+  }],
+    "order": [[2, "desc"]]
+})
+
+
+$("#btnO").click(function(){
+  $("#total").hide()
+  $("#violence").hide()
+  $("#gender").hide()
+  $("#harass").hide()
+  $("#retaliation").hide()
+  $("#admissions").hide()
+  $("#athletics").hide()
+  $("#benefits").hide()
+  $("#dissemination").hide()
+  $("#procedural").hide()
+  $("#others").show()
+
+  $(this).toggleClass('focus').siblings().removeClass('focus');
 })
