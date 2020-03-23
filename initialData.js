@@ -12,6 +12,7 @@ let sorted_schools = [];
 function preload() {
   table = loadTable("assets/allcases_fromOCR.csv", "csv", "header");
   tuitionList = loadJSON("assets/tuitions_cleaned.json")
+  bug = loadJSON("assets/sorted_list.json")
 }
 
 function setup() {
@@ -127,20 +128,22 @@ function setup() {
 
   ////ADD TUITION INFO AFTER PUPPETEER
   for (let i = 0; i < sortedFreqList.length; i++) {
+
     if (sortedFreqList[i].name === tuitionList[i].name) {
-      sortedFreqList[i].totalNum = sortedFreqList[i].incidents.length;
+      // console.log("yes", sortedFreqList[i].name,  tuitionList[i].name)
+      // console.log(tuitionList[i].name, sortedFreqList[i].name, i)
       sortedFreqList[i].tuition = tuitionList[i].tuition;
     } else {
-      // console.log("no", sortedFreqList[i].name)
-      // console.log("missing", sortedFreqList[i].name)
+      // console.log("no", sortedFreqList[i].name, i, tuitionList[i].name)
     }
   }
+  // console.log(sortedFreqList)
 
   /////CREATE SEXUAL HARRASSEMENT LIST
   ////COUNT INSTANCES IN INCIDENTS
-  for (let i = 0; i < 3; i++) {
-    let complaints = {}
-
+  let complaints;
+  for (let i = 0; i < sortedFreqList.length; i++) {
+    complaints = {};
     for (let j = 0; j < sortedFreqList[i].incidents.length; j++) {
       // console.log(sortedFreqList[i].incidents[j].complaint)
       let oneCase = sortedFreqList[i].incidents[j].complaint;
@@ -150,9 +153,57 @@ function setup() {
       } else {
         complaints[oneCase] = 1
       }
+      // sortedFreqList[i].count = complaints
+      Object.keys(complaints).forEach(function (item){
+        switch(item){
+          case "Sexual Harassment":
+            sortedFreqList[i].countH = complaints[item]
+            break;
+
+          case "Sexual Violence":
+            sortedFreqList[i].countV = complaints[item]
+            break;
+
+          case "Gender Harassment":
+            sortedFreqList[i].countG = complaints[item]
+            break;
+
+          case "Dissemination of Policy":
+            sortedFreqList[i].countD = complaints[item]
+            break;
+
+          case "Admission":
+            sortedFreqList[i].countAd = complaints[item]
+            break;
+
+          case "Athletics":
+            sortedFreqList[i].countA= complaints[item]
+            break;
+
+          case "Others":
+            sortedFreqList[i].countO = complaints[item]
+            break;
+
+          case "Procedural Requirements":
+            sortedFreqList[i].countP = complaints[item]
+            break;
+
+          case "Retaliation":
+            sortedFreqList[i].countR = complaints[item]
+            break;
+
+          case "Denial of Benefits":
+            sortedFreqList[i].countB = complaints[item]
+            break;
+        }
+        // if (item == "Sexual Harassment"){
+        //   sortedFreqList[i].countH = complaints[item]
+        // }
+        // console.log(item, complaints[item])
+      })
     }
-  // console.log(complaints)
   }
+  console.log(sortedFreqList)
 
   /////MAKE HARASSMENT LIST
   for (let i=0; i<sortedFreqList.length; i++){
@@ -160,6 +211,15 @@ function setup() {
 
     delete sortedFreqList[i].type;
     delete sortedFreqList[i].totalNum;
+    delete sortedFreqList[i].tuition;
+
+    // console.log(bug)
+    for(let l=0; l<354; l++){
+      if(sortedFreqList[i].name == bug[l].name){
+        // console.log(sortedFreqList[i].name, bug[l].name)
+        sortedFreqList[i].tuition = bug[l].tuition
+      }
+    }
 
     sortedFreqList[i].harassment=[];
     sortedFreqList[i].violence=[];
@@ -263,17 +323,16 @@ function setup() {
     if(sortedFreqList[i].benefits.length == 0){
       delete sortedFreqList[i].benefits;
     }
-
     delete sortedFreqList[i].incidents;
   }
-
-  console.log(sortedFreqList)
+  // console.log("2", sortedFreqList)
   }
+
 
   function draw() {}
 
   function mousePressed() {
     // saveJSON(sortedFreqList, 'sorted_all.json');
     // saveJSON(sorted_schools, 'list_of_schools.json');
-    saveJSON(sortedFreqList, 'sorted_byType_list.json');
+    saveJSON(sortedFreqList, 'sorted_byType.json');
   }

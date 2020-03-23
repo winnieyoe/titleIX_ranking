@@ -25,18 +25,89 @@
 
   <body>
     <div class="container">
-      <div id="page-title">
-        <h1>US Top Colleges 2020<br/><span id="subtitle">By Number of Active Title IX Investigations</span></h1>
+      <div id="title">
+        <h1>US Top Colleges 2020<br/><span class="subtitle">By Number of Open Title IX Investigations</span></h1>
       </div>
-      <div class="table-responsive">
 
-        <table class="table table-striped table-bordered dt-responsive nowrap" style="width:100%" id="total_table"></table>
+      <div id="info">
+        <p class="info_p">Title IX is a federal civil rights law that prohibits discrimination on the basis of sex by education programs
+          or activities receiving any type of Federal financial assistance, which applies most schools, regardless public or private.
+          It was originally enacted to provide equal academic and athletics opportunities for women and men.
+          <i>Alexander v. Yale</i>, 631 F. 2d 178 (2d Cir. 1980) was the first Title IX case to argue and subsequently established
+          that sexual harassment could be considered disciminatory. Data displayed only showed postsecondary schools and is soruced
+          from The U.S. Department of Education's Office for Civil Rights (OCR). <a href=#more_info>More on project methodology and Title IX.</a></p>
+      </div>
+
+      <div id="select">
+        <div id="allButtons">
+          <button class="btn focus" id="resetBtn">All Types</button>
+          <button class="btn" id="btnH">Sexual Harassment</button>
+          <button class="btn" id="btnV">Sexual Violence</button>
+          <button class="btn" id="btnG">Gender Harassment</button>
+          <button class="btn" id="btnR">Retaliation</button>
+          <button class="btn" id="btnAd">Admission</button>
+          <button class="btn" id="btnA">Athletics</button>
+          <button class="btn" id="btnB">Denial of Benefits</button>
+          <button class="btn" id="btnD">Dissemination of Policy</button>
+          <button class="btn" id="btnP">Procedural Requirements</button>
+          <button class="btn" id="btnO">Others</button>
+        </div>
+
+        <div>
+          <input class="form-control" id="search_school" type="text" placeholder="Search in Table" aria-label="Search">
+        </div>
+      </div>
+
+      <div class="table-responsive" id="total">
+        <table id="total_table" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%"></table>
+      </div>
+
+      <div class="table-responsive" id="harass">
+        <table id="harassment_table" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%"></table>
+      </div>
+
+      <div class="table-responsive" id="violence">
+        <table id="violence_table" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%"></table>
+      </div>
+
+      <div class="table-responsive" id="gender">
+        <table id="gender_table" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%"></table>
+      </div>
+
+      <div id="more_info">
+        <hr></hr>
+        <h2>Methodology</h2>
+        <p class="info_p"><span class="bold">Data Source: </span>Office of Civil Rights' "Pending Cases Pending Cases Currently Under Investigation at Elementary-Secondary and Post-Secondary Schools
+          as of March 17, 2020 Search".<a href="https://www2.ed.gov/about/offices/list/ocr/docs/investigations/open-investigations/tix.html?perPage=1000" target="_blank"> View Link</a>
+        </p>
+
+        <h2>In Recent Years</h2>
+        <p class="info_p">In 2011, the OCR under the Obama administration sent a "Dear Colleage" letter to more than 7,000 schools providing guidance
+          on how to address campus sexual misconduct. The OCR warned schools they could lose their federal funding if they did not take further measures to to prevent sexual violence. The letter was
+          withdrawn in 2017 by current Secretary of Education Betsy DeVos. In February 2020, DeVos introduced new guidelines on the regulation of Title IX, rolling back many of the strict interpretations from
+          the Obama administration. <a href="https://www.newyorker.com/news/our-columnists/assessing-betsy-devos-proposed-rules-on-title-ix-and-sexual-assault" target="_blank">New Yorker column</a>.
+        </p>
+
+        <h2>Other References</h2>
+        <p class="info_p"><span class="bold">1.Real Cases: </span><i>The Hunting Ground</i>. Dir. Kirby Dick. Chain Camera Pictures, 2015 — a documentary about sexual assaults on U.S. college campuses and how institutions failed to adequately
+          and appropriately respond to these cases.<a href="https://www.youtube.com/watch?v=GBNHGi36nlM" target="_blank"> View Trailer</a>
+        </p>
+        <p class="info_p"><span class="bold">2. Title IX requirements pertaining to sexual harassment and violence:</span> OCR's "Know Your Rights: Title IX Prohibits Sexual Harassment and
+          Sexual Violence Where You Go to School"<a href="https://www2.ed.gov/about/offices/list/ocr/docs/title-ix-rights-201104.html" target="_blank"> View Link</a>
+        </p>
+        <p class="info_p"><span class="bold">3. How to File a Complaint:</span> Know Your IX's "Taking Legal Action Under Title IX"<a href="https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/" target="_blank"> View Link</a>
+        </p>
+
+        <div>
+          <h3><a href="index.html">Back to Top</a></h3>
+        </div>
+
       </div>
     </div>
   </body>
 </html>
 <!-- Download CSV file from simple HTML table -->
 <!-- <script src="htmlToCsv.js"></script> -->
-<script src="initialData.js"></script>
+<!-- <script src="initialData.js"></script> -->
 <!-- <script src="getTuitions.js"></script> -->
-<!-- <script src="visualizeRanking.js"></script> -->
+<script src="visualizeRanking.js"></script>

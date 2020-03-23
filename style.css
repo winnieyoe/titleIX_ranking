@@ -20,22 +20,56 @@ h1{
   line-height: 0.9;
 }
 
-/* TITLE CSS*/
-#page-title{
-  text-align: left;
-  margin-bottom: 8%;
+h2{
+  font-family: 'Spectral', serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 4%;
 }
 
-#subtitle{
-  font-size: 18px;
+h3{
+  font-family: 'Spectral', serif;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 8%;
+  text-align: right;
 }
 
-/* TABLE CSS*/
-#total_table{
-  margin-top: 5%;
+p{
+  font-size: 13px;
+  margin-top: 2%;
+  line-height: 1.8;
+}
+
+hr{
   margin-bottom: 5%;
 }
 
+/* TITLE CSS*/
+#title{
+  text-align: left;
+}
+
+.subtitle{
+  font-size: 18px;
+}
+
+#more_info{
+  margin-top: 7%;
+}
+
+.info_p{
+  margin-top: 2%;
+  color: #6c757d;
+}
+
+.bold{
+  font-family: 'Spectral', serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* TABLE CSS*/
 #total_table_length {
   margin-bottom: 2%;
 }
@@ -49,13 +83,57 @@ h1{
 }
 
 input[type=search]{
-  border: 1px solid grey;
+  border: 1px #dee2e6;
   padding: 10px;
   border-radius: 5px;
   background: #F8F8F8;
   font-size: 12px;
 }
 
+/* Filter Category Buttons */
+#select{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 8% 0 1% 0;
+}
+
+#allButtons{
+  width: 75%;
+}
+
+.btn{
+  font-family: 'Spectral';
+  font-size: 14px;
+  margin: 0px 3px 6px 0px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  background-color: #ced4da;
+  color: #495057;
+}
+
+.btn:active, .btn.active{
+  background-color: #495057;
+  color: #FFF;
+}
+
+.btn:focus, .btn.focus{
+  background-color: #495057;
+  color: #FFF;
+  box-shadow: none;
+}
+
+/* Search Bar */
+.form-control{
+  width: 80%;
+  float:right;
+  height: auto;
+  padding: 0.3rem 0.6rem;
+  margin: 0px 3px 6px 0px;
+  font-family: 'Spectral';
+  font-size: 14px;
+}
 
 /* Top & Bottom of Table:Show Entry, Search, Next */
 label{
@@ -64,20 +142,34 @@ label{
   font-weight: 400;
 }
 
+.table_filter{
+  display: none;
+  /* display: flex;
+  flex-direction: row;
+  float: right; */
+}
+
+.dataTables_filter{
+  display: none;
+}
+
+.dataTables_length{
+  display: none;
+  margin: 0 10px 0px 10px;
+}
+
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
   background: linear-gradient(to bottom, #dcdcdc 100%, #dcdcdc 100%);
 }
 
-.dataTables_info{
+.table_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-family: 'Spectral';
   font-weight: 400;
   font-size: 12px;
-}
-
-.dataTables_paginate{
-  font-family: 'Spectral';
-  font-weight: 400;
-  font-size: 12px;
+  margin-top: 3%;
 }
 
 /* Table Header for Each Item */
@@ -108,3 +200,13 @@ table.dataTable tbody td{
 table.dataTable td::before {
   margin-top: 8px;
 }
+
+/* DIFFERENT TABLES */
+/* HARASSMENT */
+#harass{display: none}
+
+/* Violence */
+#violence{display: none}
+
+/* Gender */
+#gender{display: none}
