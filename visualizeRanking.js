@@ -158,13 +158,13 @@ $("#btnH").click(function(){
   $(this).toggleClass('focus').siblings().removeClass('focus');
 
 //// NODES: This part was added because previous data structure, where length is count includes those with 0 and we need to remove those items
-  // var nodes = [];
-  // tableH.rows().every(function() {
-  //   if (this.data().harassment == undefined) nodes.push(this.node())
-  //   })
-  //   nodes.forEach(function(node) {
-  //     tableH.row(node).remove().draw()
-  // })
+  var nodes = [];
+  tableH.rows().every(function() {
+    if (this.data().harassment == undefined) nodes.push(this.node())
+    })
+    nodes.forEach(function(node) {
+      tableH.row(node).remove().draw()
+  })
   // $.fn.dataTable.ext.search.push(
   //       function(settings, data, dataIndex) {
   //         console.log(settings)
