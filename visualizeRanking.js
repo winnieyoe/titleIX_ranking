@@ -71,8 +71,26 @@ $("#resetBtn").click(function(){
 
 //////HARASSMENT TABLE
 tableH = $("#harassment_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  // "sAjaxDataProp":"",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+
+             for (var i=0; i<json.length; i++){
+                if(json[i].harassment.length > 0){
+
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "harassment": json[i].harassment,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
+  // "ajaxSource":"assets/sorted_byType_test.json",
   "responsive": true,
   "pageLength": 50,
   // "rowCallback": function(row,data,index) {
@@ -83,20 +101,20 @@ tableH = $("#harassment_table").DataTable({
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      // {"title": "Type Count", "data": "harassment",
-      //           "render": function (data, type, row){
-      //             // var count;
-      //             //   $.each(data, function(key, value){
-      //             //     count = data.length;
-      //             //   });
-      //             //   return "<div>" + count + "</div>"
-      //             var div = "<div>";
-      //             $.each(data, function(key, value){
-      //                 div = data.length;
-      //             });
-      //             return div + "</div>";
-      //           }, "class": "all", "data-priority": "2"
-      // },
+      {"title": "Type Count", "data": "harassment",
+                "render": function (data, type, row){
+                  // var count;
+                  //   $.each(data, function(key, value){
+                  //     count = data.length;
+                  //   });
+                  //   return "<div>" + count + "</div>"
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
+                  return div + "</div>";
+                }, "class": "all", "data-priority": "2"
+      },
       // {"title": "Type Count 2", "data": "count",
       //           "render": function(data, type, row){
       //             var div = "<div>";
@@ -115,13 +133,13 @@ tableH = $("#harassment_table").DataTable({
       //               return div + "</div>";
       //           }
       // },
-      {"title": "Type Count", "data": "countH",
-                "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
-                  return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+      // {"title": "Type Count", "data": "countH",
+      //           "render": function (data, type, row){
+      //             if(data != undefined){
+      //               div = data
+      //             }
+      //             return div + "</div>";
+      //           }, "class": "all", "data-priority": "2"},
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "harassment",
                 "render": function(data, type, row){
@@ -158,13 +176,13 @@ $("#btnH").click(function(){
   $(this).toggleClass('focus').siblings().removeClass('focus');
 
 //// NODES: This part was added because previous data structure, where length is count includes those with 0 and we need to remove those items
-  var nodes = [];
-  tableH.rows().every(function() {
-    if (this.data().harassment == undefined) nodes.push(this.node())
-    })
-    nodes.forEach(function(node) {
-      tableH.row(node).remove().draw()
-  })
+  // var nodes = [];
+  // tableH.rows().every(function() {
+  //   if (this.data().harassment == undefined) nodes.push(this.node())
+  //   })
+  //   nodes.forEach(function(node) {
+  //     tableH.row(node).remove().draw()
+  // })
   // $.fn.dataTable.ext.search.push(
   //       function(settings, data, dataIndex) {
   //         console.log(settings)
@@ -181,30 +199,38 @@ $("#btnH").click(function(){
 
 //////VIOLENCE TABLE
 tableV = $("#violence_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+
+             for (var i=0; i<json.length; i++){
+                if(json[i].violence.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "violence": json[i].violence,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      // {"title": "Type Count", "data": "violence",
-      //           "render": function (data, type, row){
-      //             var div = "<div>";
-      //             $.each(data, function(key, value){
-      //                 div = data.length;
-      //             });
-      //             return div + "</div>";
-      //           }, "class": "all", "data-priority": "2"
-      // },
-      {"title": "Type Count", "data": "countV",
+      {"title": "Type Count", "data": "violence",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "violence",
                 "render": function(data, type, row){
@@ -240,19 +266,33 @@ $("#btnV").click(function(){
   // $(this).addClass("focus")
   $(this).toggleClass('focus').siblings().removeClass('focus');
 
-  var nodes = [];
-  tableV.rows().every(function() {
-    if (this.data().violence == undefined) nodes.push(this.node())
-    })
-    nodes.forEach(function(node) {
-      tableV.row(node).remove().draw()
-  })
+  // var nodes = [];
+  // tableV.rows().every(function() {
+  //   if (this.data().violence == undefined) nodes.push(this.node())
+  //   })
+  //   nodes.forEach(function(node) {
+  //     tableV.row(node).remove().draw()
+  // })
 })
 
 //////GENDER TABLE
 tableG = $("#gender_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].gender.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "gender": json[i].gender,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
@@ -268,13 +308,15 @@ tableG = $("#gender_table").DataTable({
       //             return div + "</div>";
       //           }, "class": "all", "data-priority": "2"
       // },
-      {"title": "Type Count", "data": "countG",
+      {"title": "Type Count", "data": "gender",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "gender",
                 "render": function(data, type, row){
@@ -322,21 +364,37 @@ $("#btnG").click(function(){
 
 //////RETALIATION TABLE
 tableR = $("#retaliation_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].retaliation.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "retaliation": json[i].retaliation,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countR",
+      {"title": "Type Count", "data": "retaliation",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "retaliation",
                 "render": function(data, type, row){
@@ -374,21 +432,37 @@ $("#btnR").click(function(){
 
 //////ADMISSIONS TABLE
 tableAd = $("#admissions_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].admissions.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "admissions": json[i].admissions,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countAd",
+      {"title": "Type Count", "data": "admissions",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "admissions",
                 "render": function(data, type, row){
@@ -427,21 +501,37 @@ $("#btnAd").click(function(){
 
 //////Athletics TABLE
 tableA = $("#athletics_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].athletics.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "athletics": json[i].athletics,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countA",
+      {"title": "Type Count", "data": "athletics",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "athletics",
                 "render": function(data, type, row){
@@ -479,21 +569,37 @@ $("#btnA").click(function(){
 
 //////BENEFITS TABLE
 tableB = $("#benefits_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].benefits.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "benefits": json[i].benefits,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countB",
+      {"title": "Type Count", "data": "benefits",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "benefits",
                 "render": function(data, type, row){
@@ -531,21 +637,37 @@ $("#btnB").click(function(){
 
 //////DISSEMINATION TABLE
 tableD = $("#dissemination_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].dissemination.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "dissemination": json[i].dissemination,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countD",
+      {"title": "Type Count", "data": "dissemination",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "dissemination",
                 "render": function(data, type, row){
@@ -583,21 +705,37 @@ $("#btnD").click(function(){
 
 //////PROCEDURAL TABLE
 tableP = $("#procedural_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].procedural.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "procedural": json[i].procedural,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countP",
+      {"title": "Type Count", "data": "procedural",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "procedural",
                 "render": function(data, type, row){
@@ -635,21 +773,37 @@ $("#btnP").click(function(){
 
 //////OTHERS TABLE
 tableO = $("#others_table").DataTable({
-  "sAjaxDataProp":"",
-  "ajaxSource":"assets/sorted_byType.json",
+  "ajax": {"url": "assets/sorted_byType_test.json",
+           "dataSrc": function(json){
+             var return_data = [];
+             for (var i=0; i<json.length; i++){
+                if(json[i].others.length > 0){
+                 return_data.push({
+                   "name": json[i].name,
+                   "state": json[i].state,
+                   "others": json[i].others,
+                   "tuition":json[i].tuition
+                 })
+               }
+             }
+             return return_data
+           }
+  },
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Type Count", "data": "countO",
+      {"title": "Type Count", "data": "others",
                 "render": function (data, type, row){
-                  if(data != undefined){
-                    div = data
-                  }
+                  var div = "<div>";
+                  $.each(data, function(key, value){
+                      div = data.length;
+                  });
                   return div + "</div>";
-                }, "class": "all", "data-priority": "2"},
+                }, "class": "all", "data-priority": "2"
+      },
       {"title": "Tuition", "data": "tuition"},
       {"title": "Case Info", "data": "others",
                 "render": function(data, type, row){

@@ -141,69 +141,64 @@ function setup() {
 
   /////CREATE SEXUAL HARRASSEMENT LIST
   ////COUNT INSTANCES IN INCIDENTS
-  let complaints;
-  for (let i = 0; i < sortedFreqList.length; i++) {
-    complaints = {};
-    for (let j = 0; j < sortedFreqList[i].incidents.length; j++) {
-      // console.log(sortedFreqList[i].incidents[j].complaint)
-      let oneCase = sortedFreqList[i].incidents[j].complaint;
-
-      if(complaints.hasOwnProperty(oneCase)){
-        complaints[oneCase]=complaints[oneCase] + 1 ;
-      } else {
-        complaints[oneCase] = 1
-      }
-      // sortedFreqList[i].count = complaints
-      Object.keys(complaints).forEach(function (item){
-        switch(item){
-          case "Sexual Harassment":
-            sortedFreqList[i].countH = complaints[item]
-            break;
-
-          case "Sexual Violence":
-            sortedFreqList[i].countV = complaints[item]
-            break;
-
-          case "Gender Harassment":
-            sortedFreqList[i].countG = complaints[item]
-            break;
-
-          case "Dissemination of Policy":
-            sortedFreqList[i].countD = complaints[item]
-            break;
-
-          case "Admissions":
-            sortedFreqList[i].countAd = complaints[item]
-            break;
-
-          case "Athletics":
-            sortedFreqList[i].countA= complaints[item]
-            break;
-
-          case "Others":
-            sortedFreqList[i].countO = complaints[item]
-            break;
-
-          case "Procedural Requirements":
-            sortedFreqList[i].countP = complaints[item]
-            break;
-
-          case "Retaliation":
-            sortedFreqList[i].countR = complaints[item]
-            break;
-
-          case "Denial of Benefits":
-            sortedFreqList[i].countB = complaints[item]
-            break;
-        }
-        // if (item == "Sexual Harassment"){
-        //   sortedFreqList[i].countH = complaints[item]
-        // }
-        // console.log(item, complaints[item])
-      })
-    }
-  }
-  console.log(sortedFreqList)
+  // let complaints;
+  // for (let i = 0; i < sortedFreqList.length; i++) {
+  //   complaints = {};
+  //   for (let j = 0; j < sortedFreqList[i].incidents.length; j++) {
+  //     let oneCase = sortedFreqList[i].incidents[j].complaint;
+  //
+  //     if(complaints.hasOwnProperty(oneCase)){
+  //       complaints[oneCase]=complaints[oneCase] + 1 ;
+  //     } else {
+  //       complaints[oneCase] = 1
+  //     }
+  //     // sortedFreqList[i].count = complaints
+  //     Object.keys(complaints).forEach(function (item){
+  //       switch(item){
+  //         case "Sexual Harassment":
+  //           sortedFreqList[i].countH = complaints[item]
+  //           break;
+  //
+  //         case "Sexual Violence":
+  //           sortedFreqList[i].countV = complaints[item]
+  //           break;
+  //
+  //         case "Gender Harassment":
+  //           sortedFreqList[i].countG = complaints[item]
+  //           break;
+  //
+  //         case "Dissemination of Policy":
+  //           sortedFreqList[i].countD = complaints[item]
+  //           break;
+  //
+  //         case "Admissions":
+  //           sortedFreqList[i].countAd = complaints[item]
+  //           break;
+  //
+  //         case "Athletics":
+  //           sortedFreqList[i].countA= complaints[item]
+  //           break;
+  //
+  //         case "Others":
+  //           sortedFreqList[i].countO = complaints[item]
+  //           break;
+  //
+  //         case "Procedural Requirements":
+  //           sortedFreqList[i].countP = complaints[item]
+  //           break;
+  //
+  //         case "Retaliation":
+  //           sortedFreqList[i].countR = complaints[item]
+  //           break;
+  //
+  //         case "Denial of Benefits":
+  //           sortedFreqList[i].countB = complaints[item]
+  //           break;
+  //       }
+  //     })
+  //   }
+  // }
+  // console.log(sortedFreqList)
 
   /////MAKE HARASSMENT LIST
   for (let i=0; i<sortedFreqList.length; i++){
@@ -284,48 +279,48 @@ function setup() {
         }
     }
     //If the array is empty, delete it
-    if(sortedFreqList[i].harassment.length == 0){
-      delete sortedFreqList[i].harassment;
-    }
-
-    if(sortedFreqList[i].gender.length == 0){
-      delete sortedFreqList[i].gender;
-    }
-
-    if(sortedFreqList[i].violence.length == 0){
-      delete sortedFreqList[i].violence;
-    }
-
-    if(sortedFreqList[i].dissemination.length == 0){
-      delete sortedFreqList[i].dissemination;
-    }
-
-    if(sortedFreqList[i].admissions.length == 0){
-      delete sortedFreqList[i].admissions;
-    }
-
-    if(sortedFreqList[i].athletics.length == 0){
-      delete sortedFreqList[i].athletics;
-    }
-
-    if(sortedFreqList[i].others.length == 0){
-      delete sortedFreqList[i].others;
-    }
-
-    if(sortedFreqList[i].procedural.length == 0){
-      delete sortedFreqList[i].procedural;
-    }
-
-    if(sortedFreqList[i].retaliation.length == 0){
-      delete sortedFreqList[i].retaliation;
-    }
-
-    if(sortedFreqList[i].benefits.length == 0){
-      delete sortedFreqList[i].benefits;
-    }
+    // if(sortedFreqList[i].harassment.length == 0){
+    //   delete sortedFreqList[i].harassment;
+    // }
+    //
+    // if(sortedFreqList[i].gender.length == 0){
+    //   delete sortedFreqList[i].gender;
+    // }
+    //
+    // if(sortedFreqList[i].violence.length == 0){
+    //   delete sortedFreqList[i].violence;
+    // }
+    //
+    // if(sortedFreqList[i].dissemination.length == 0){
+    //   delete sortedFreqList[i].dissemination;
+    // }
+    //
+    // if(sortedFreqList[i].admissions.length == 0){
+    //   delete sortedFreqList[i].admissions;
+    // }
+    //
+    // if(sortedFreqList[i].athletics.length == 0){
+    //   delete sortedFreqList[i].athletics;
+    // }
+    //
+    // if(sortedFreqList[i].others.length == 0){
+    //   delete sortedFreqList[i].others;
+    // }
+    //
+    // if(sortedFreqList[i].procedural.length == 0){
+    //   delete sortedFreqList[i].procedural;
+    // }
+    //
+    // if(sortedFreqList[i].retaliation.length == 0){
+    //   delete sortedFreqList[i].retaliation;
+    // }
+    //
+    // if(sortedFreqList[i].benefits.length == 0){
+    //   delete sortedFreqList[i].benefits;
+    // }
     delete sortedFreqList[i].incidents;
   }
-  // console.log("2", sortedFreqList)
+  console.log("2", sortedFreqList)
   }
 
 

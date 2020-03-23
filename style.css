@@ -202,11 +202,13 @@ table.dataTable td::before {
 }
 
 /* DIFFERENT TABLES */
-/* HARASSMENT */
 #harass{display: none}
-
-/* Violence */
 #violence{display: none}
-
-/* Gender */
 #gender{display: none}
+#retaliation{display: none}
+#admissions{display: none}
+#athletics{display: none}
+#benefits{display: none}
+#dissemination{display: none}
+#procedural{display: none}
+#others{display: none}
