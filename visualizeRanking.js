@@ -4,13 +4,13 @@ total = $("#total_table").DataTable({
   "responsive": true,
   "pageLength": 50,
   "dom": '<"table_filter"fl>t<"table_bottom"ip>',
-  "order": [[3, "desc"]],
+  "order": [[2, "desc"]],
   // "dom":"lrtip",
   "columns":[
       {"title": "School", "data": "name", "class": "all", "data-priority": "1"},
       {"title": "State", "data": "state"},
-      {"title": "Tuition", "data": "tuition"},
       {"title": "Total Count", "data": "totalNum", "class": "all", "data-priority": "2"},
+      {"title": "Tuition", "data": "tuition"},
       // {"title": "Case", "data": "incidents[, ]",
       //           "render": function(data, type, row){
       //
