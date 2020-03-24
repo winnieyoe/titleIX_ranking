@@ -34,7 +34,7 @@ total = $("#total_table").DataTable({
       }
   ],
   "columnDefs": [{
-    "targets": [4, 2],
+    "targets": [3,4],
     "orderable": false,
   }]
 })
